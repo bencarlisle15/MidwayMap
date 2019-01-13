@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/bencarlisle15/Documents/SideProjects/MidwayMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/bencarlisle15/AndroidStudioProjects/MidwayMap/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/bencarlisle15/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/969c80f62f09499248e87a23d3a50995/res/values-v16/values-v16.xml",
+                    "source": "/home/bencarlisle15/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e121286988922b72ef38c6fa55580035/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/bencarlisle15/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9d31676070c3e00f58f14912ac5c431f/res/values-v16/values-v16.xml",
+                    "source": "/home/bencarlisle15/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d11d28051edce437af8122a9deba204d/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

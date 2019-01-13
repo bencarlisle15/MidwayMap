@@ -14,11 +14,11 @@ public final class R {
 
         public static final int NumberPickerLayout = 0x7f020000;
         public static final int custom_layout = 0x7f020072;
-        public static final int focusable = 0x7f020085;
-        public static final int max = 0x7f0200ee;
-        public static final int min = 0x7f0200f1;
-        public static final int unit = 0x7f020157;
-        public static final int value = 0x7f020159;
+        public static final int focusable = 0x7f020087;
+        public static final int max = 0x7f0200f3;
+        public static final int min = 0x7f0200f6;
+        public static final int unit = 0x7f02015d;
+        public static final int value = 0x7f02015f;
     }
     public static final class color {
         private color() {}
@@ -35,19 +35,19 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int decrement = 0x7f070038;
-        public static final int display = 0x7f07003e;
-        public static final int increment = 0x7f070052;
+        public static final int decrement = 0x7f070039;
+        public static final int display = 0x7f07003f;
+        public static final int increment = 0x7f070054;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int number_picker_layout = 0x7f09002e;
+        public static final int number_picker_layout = 0x7f09002f;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] NumberPicker = { 0x7f020072, 0x7f020085, 0x7f0200ee, 0x7f0200f1, 0x7f020157, 0x7f020159 };
+        public static final int[] NumberPicker = { 0x7f020072, 0x7f020087, 0x7f0200f3, 0x7f0200f6, 0x7f02015d, 0x7f02015f };
         public static final int NumberPicker_custom_layout = 0;
         public static final int NumberPicker_focusable = 1;
         public static final int NumberPicker_max = 2;

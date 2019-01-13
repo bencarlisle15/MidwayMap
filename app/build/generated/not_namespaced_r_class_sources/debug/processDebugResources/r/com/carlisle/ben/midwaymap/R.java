@@ -882,14 +882,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f020074;
+    public static final int dialogCornerRadius=0x7f020074;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int dialogPreferredPadding=0x7f020075;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f020075;
+    public static final int dialogTheme=0x7f020076;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -906,21 +914,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f020076;
+    public static final int displayOptions=0x7f020077;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f020077;
+    public static final int divider=0x7f020078;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f020078;
+    public static final int dividerHorizontal=0x7f020079;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -928,14 +936,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f020079;
+    public static final int dividerPadding=0x7f02007a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f02007a;
+    public static final int dividerVertical=0x7f02007b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -943,21 +951,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f02007b;
+    public static final int drawableSize=0x7f02007c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f02007c;
+    public static final int drawerArrowStyle=0x7f02007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f02007d;
+    public static final int dropDownListViewStyle=0x7f02007e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -965,14 +973,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f02007e;
+    public static final int dropdownListPreferredItemHeight=0x7f02007f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f02007f;
+    public static final int editTextBackground=0x7f020080;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -982,14 +990,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f020080;
+    public static final int editTextColor=0x7f020081;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f020081;
+    public static final int editTextStyle=0x7f020082;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -997,7 +1005,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f020082;
+    public static final int elevation=0x7f020083;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1009,43 +1017,51 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int emptyVisibility=0x7f020083;
+    public static final int emptyVisibility=0x7f020084;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f020084;
+    public static final int expandActivityOverflowButtonDrawable=0x7f020085;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int firstBaselineToTopHeight=0x7f020086;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int focusable=0x7f020085;
+    public static final int focusable=0x7f020087;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f020086;
+    public static final int font=0x7f020088;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f020087;
+    public static final int fontFamily=0x7f020089;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f020088;
+    public static final int fontProviderAuthority=0x7f02008a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f020089;
+    public static final int fontProviderCerts=0x7f02008b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1057,7 +1073,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f02008a;
+    public static final int fontProviderFetchStrategy=0x7f02008c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1069,17 +1085,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f02008b;
+    public static final int fontProviderFetchTimeout=0x7f02008d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f02008c;
+    public static final int fontProviderPackage=0x7f02008e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f02008d;
+    public static final int fontProviderQuery=0x7f02008f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1091,11 +1107,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f02008e;
+    public static final int fontStyle=0x7f020090;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fontVariationSettings=0x7f020091;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f02008f;
+    public static final int fontWeight=0x7f020092;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1103,14 +1124,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f020090;
+    public static final int gapBetweenBars=0x7f020093;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f020091;
+    public static final int goIcon=0x7f020094;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1118,39 +1139,39 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f020092;
+    public static final int height=0x7f020095;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f020093;
+    public static final int hideOnContentScroll=0x7f020096;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f020094;
+    public static final int homeAsUpIndicator=0x7f020097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f020095;
+    public static final int homeLayout=0x7f020098;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f020096;
+    public static final int icon=0x7f020099;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f020097;
+    public static final int iconTint=0x7f02009a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1166,16 +1187,16 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f020098;
+    public static final int iconTintMode=0x7f02009b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f020099;
+    public static final int iconifiedByDefault=0x7f02009c;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int imageAspectRatio=0x7f02009a;
+    public static final int imageAspectRatio=0x7f02009d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1188,31 +1209,31 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int imageAspectRatioAdjust=0x7f02009b;
+    public static final int imageAspectRatioAdjust=0x7f02009e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f02009c;
+    public static final int imageButtonStyle=0x7f02009f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f02009d;
+    public static final int indeterminateProgressStyle=0x7f0200a0;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f02009e;
+    public static final int initialActivityCount=0x7f0200a1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f02009f;
+    public static final int isLightTheme=0x7f0200a2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1220,44 +1241,52 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0200a0;
+    public static final int itemPadding=0x7f0200a3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f0200a1;
+    public static final int keylines=0x7f0200a4;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int lastBaselineToBottomHeight=0x7f0200a5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsNorthEastLatitude=0x7f0200a2;
+    public static final int latLngBoundsNorthEastLatitude=0x7f0200a6;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsNorthEastLongitude=0x7f0200a3;
+    public static final int latLngBoundsNorthEastLongitude=0x7f0200a7;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsSouthWestLatitude=0x7f0200a4;
+    public static final int latLngBoundsSouthWestLatitude=0x7f0200a8;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsSouthWestLongitude=0x7f0200a5;
+    public static final int latLngBoundsSouthWestLongitude=0x7f0200a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0200a6;
+    public static final int layout=0x7f0200aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f0200a7;
+    public static final int layout_anchor=0x7f0200ab;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1281,26 +1310,26 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f0200a8;
+    public static final int layout_anchorGravity=0x7f0200ac;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f0200a9;
+    public static final int layout_behavior=0x7f0200ad;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f0200aa;
+    public static final int layout_constrainedHeight=0x7f0200ae;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f0200ab;
+    public static final int layout_constrainedWidth=0x7f0200af;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f0200ac;
+    public static final int layout_constraintBaseline_creator=0x7f0200b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1315,11 +1344,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f0200ad;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f0200b1;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f0200ae;
+    public static final int layout_constraintBottom_creator=0x7f0200b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1334,7 +1363,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f0200af;
+    public static final int layout_constraintBottom_toBottomOf=0x7f0200b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1349,18 +1378,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f0200b0;
+    public static final int layout_constraintBottom_toTopOf=0x7f0200b4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f0200b1;
+    public static final int layout_constraintCircle=0x7f0200b5;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f0200b2;
+    public static final int layout_constraintCircleAngle=0x7f0200b6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1368,12 +1397,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f0200b3;
+    public static final int layout_constraintCircleRadius=0x7f0200b7;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f0200b4;
+    public static final int layout_constraintDimensionRatio=0x7f0200b8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1388,7 +1417,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f0200b5;
+    public static final int layout_constraintEnd_toEndOf=0x7f0200b9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1403,7 +1432,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f0200b6;
+    public static final int layout_constraintEnd_toStartOf=0x7f0200ba;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1411,7 +1440,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f0200b7;
+    public static final int layout_constraintGuide_begin=0x7f0200bb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1419,11 +1448,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f0200b8;
+    public static final int layout_constraintGuide_end=0x7f0200bc;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f0200b9;
+    public static final int layout_constraintGuide_percent=0x7f0200bd;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1436,7 +1465,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f0200ba;
+    public static final int layout_constraintHeight_default=0x7f0200be;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1452,7 +1481,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f0200bb;
+    public static final int layout_constraintHeight_max=0x7f0200bf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1468,15 +1497,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f0200bc;
+    public static final int layout_constraintHeight_min=0x7f0200c0;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f0200bd;
+    public static final int layout_constraintHeight_percent=0x7f0200c1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f0200be;
+    public static final int layout_constraintHorizontal_bias=0x7f0200c2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1489,15 +1518,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f0200bf;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f0200c3;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f0200c0;
+    public static final int layout_constraintHorizontal_weight=0x7f0200c4;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f0200c1;
+    public static final int layout_constraintLeft_creator=0x7f0200c5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1512,7 +1541,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f0200c2;
+    public static final int layout_constraintLeft_toLeftOf=0x7f0200c6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1527,11 +1556,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f0200c3;
+    public static final int layout_constraintLeft_toRightOf=0x7f0200c7;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f0200c4;
+    public static final int layout_constraintRight_creator=0x7f0200c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1546,7 +1575,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f0200c5;
+    public static final int layout_constraintRight_toLeftOf=0x7f0200c9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1561,7 +1590,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f0200c6;
+    public static final int layout_constraintRight_toRightOf=0x7f0200ca;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1576,7 +1605,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f0200c7;
+    public static final int layout_constraintStart_toEndOf=0x7f0200cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1591,11 +1620,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f0200c8;
+    public static final int layout_constraintStart_toStartOf=0x7f0200cc;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f0200c9;
+    public static final int layout_constraintTop_creator=0x7f0200cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1610,7 +1639,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f0200ca;
+    public static final int layout_constraintTop_toBottomOf=0x7f0200ce;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1625,11 +1654,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f0200cb;
+    public static final int layout_constraintTop_toTopOf=0x7f0200cf;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f0200cc;
+    public static final int layout_constraintVertical_bias=0x7f0200d0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1642,11 +1671,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f0200cd;
+    public static final int layout_constraintVertical_chainStyle=0x7f0200d1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f0200ce;
+    public static final int layout_constraintVertical_weight=0x7f0200d2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1659,7 +1688,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f0200cf;
+    public static final int layout_constraintWidth_default=0x7f0200d3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1675,7 +1704,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f0200d0;
+    public static final int layout_constraintWidth_max=0x7f0200d4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1691,11 +1720,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f0200d1;
+    public static final int layout_constraintWidth_min=0x7f0200d5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f0200d2;
+    public static final int layout_constraintWidth_percent=0x7f0200d6;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1713,7 +1742,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f0200d3;
+    public static final int layout_dodgeInsetEdges=0x7f0200d7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1721,7 +1750,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f0200d4;
+    public static final int layout_editor_absoluteX=0x7f0200d8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1729,7 +1758,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f0200d5;
+    public static final int layout_editor_absoluteY=0x7f0200d9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1737,7 +1766,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f0200d6;
+    public static final int layout_goneMarginBottom=0x7f0200da;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1745,7 +1774,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f0200d7;
+    public static final int layout_goneMarginEnd=0x7f0200db;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1753,7 +1782,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f0200d8;
+    public static final int layout_goneMarginLeft=0x7f0200dc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1761,7 +1790,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f0200d9;
+    public static final int layout_goneMarginRight=0x7f0200dd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1769,7 +1798,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f0200da;
+    public static final int layout_goneMarginStart=0x7f0200de;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1777,7 +1806,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f0200db;
+    public static final int layout_goneMarginTop=0x7f0200df;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1794,11 +1823,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f0200dc;
+    public static final int layout_insetEdge=0x7f0200e0;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f0200dd;
+    public static final int layout_keyline=0x7f0200e1;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1809,55 +1838,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f0200de;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listChoiceBackgroundIndicator=0x7f0200df;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listDividerAlertDialog=0x7f0200e0;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listItemLayout=0x7f0200e1;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listLayout=0x7f0200e2;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listMenuViewStyle=0x7f0200e3;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listPopupWindowStyle=0x7f0200e4;
+    public static final int layout_optimizationLevel=0x7f0200e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1865,7 +1852,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f0200e5;
+    public static final int lineHeight=0x7f0200e3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listChoiceBackgroundIndicator=0x7f0200e4;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listDividerAlertDialog=0x7f0200e5;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listItemLayout=0x7f0200e6;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listLayout=0x7f0200e7;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listMenuViewStyle=0x7f0200e8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listPopupWindowStyle=0x7f0200e9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1873,7 +1902,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f0200e6;
+    public static final int listPreferredItemHeight=0x7f0200ea;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1881,7 +1910,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f0200e7;
+    public static final int listPreferredItemHeightLarge=0x7f0200eb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1889,7 +1918,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f0200e8;
+    public static final int listPreferredItemHeightSmall=0x7f0200ec;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1897,24 +1926,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f0200e9;
+    public static final int listPreferredItemPaddingLeft=0x7f0200ed;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemPaddingRight=0x7f0200ee;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int liteMode=0x7f0200ea;
+    public static final int liteMode=0x7f0200ef;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f0200eb;
+    public static final int logo=0x7f0200f0;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f0200ec;
+    public static final int logoDescription=0x7f0200f1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1929,11 +1966,11 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int mapType=0x7f0200ed;
+    public static final int mapType=0x7f0200f2;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int max=0x7f0200ee;
+    public static final int max=0x7f0200f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1941,35 +1978,35 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f0200ef;
+    public static final int maxButtonHeight=0x7f0200f4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f0200f0;
+    public static final int measureWithLargestChild=0x7f0200f5;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int min=0x7f0200f1;
+    public static final int min=0x7f0200f6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f0200f2;
+    public static final int multiChoiceItemLayout=0x7f0200f7;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0200f3;
+    public static final int navigationContentDescription=0x7f0200f8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f0200f4;
+    public static final int navigationIcon=0x7f0200f9;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1982,7 +2019,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f0200f5;
+    public static final int navigationMode=0x7f0200fa;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1998,12 +2035,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f0200f6;
+    public static final int numericModifiers=0x7f0200fb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f0200f7;
+    public static final int overlapAnchor=0x7f0200fc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2011,7 +2048,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f0200f8;
+    public static final int paddingBottomNoButtons=0x7f0200fd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2019,7 +2056,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f0200f9;
+    public static final int paddingEnd=0x7f0200fe;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2027,7 +2064,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f0200fa;
+    public static final int paddingStart=0x7f0200ff;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2035,21 +2072,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f0200fb;
+    public static final int paddingTopNoTitle=0x7f020100;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f0200fc;
+    public static final int panelBackground=0x7f020101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f0200fd;
+    public static final int panelMenuListTheme=0x7f020102;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2057,33 +2094,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f0200fe;
+    public static final int panelMenuListWidth=0x7f020103;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f0200ff;
+    public static final int popupMenuStyle=0x7f020104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f020100;
+    public static final int popupTheme=0x7f020105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f020101;
+    public static final int popupWindowStyle=0x7f020106;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f020102;
+    public static final int preserveIconSpacing=0x7f020107;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2091,54 +2128,54 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f020103;
+    public static final int progressBarPadding=0x7f020108;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f020104;
+    public static final int progressBarStyle=0x7f020109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f020105;
+    public static final int queryBackground=0x7f02010a;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f020106;
+    public static final int queryHint=0x7f02010b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f020107;
+    public static final int radioButtonStyle=0x7f02010c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f020108;
+    public static final int ratingBarStyle=0x7f02010d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f020109;
+    public static final int ratingBarStyleIndicator=0x7f02010e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f02010a;
+    public static final int ratingBarStyleSmall=0x7f02010f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2147,49 +2184,49 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int scopeUris=0x7f02010b;
+    public static final int scopeUris=0x7f020110;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f02010c;
+    public static final int searchHintIcon=0x7f020111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f02010d;
+    public static final int searchIcon=0x7f020112;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f02010e;
+    public static final int searchViewStyle=0x7f020113;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f02010f;
+    public static final int seekBarStyle=0x7f020114;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f020110;
+    public static final int selectableItemBackground=0x7f020115;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f020111;
+    public static final int selectableItemBackgroundBorderless=0x7f020116;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2204,7 +2241,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f020112;
+    public static final int showAsAction=0x7f020117;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2218,60 +2255,60 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f020113;
+    public static final int showDividers=0x7f020118;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f020114;
+    public static final int showText=0x7f020119;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f020115;
+    public static final int showTitle=0x7f02011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f020116;
+    public static final int singleChoiceItemLayout=0x7f02011b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f020117;
+    public static final int spinBars=0x7f02011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f020118;
+    public static final int spinnerDropDownItemStyle=0x7f02011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f020119;
+    public static final int spinnerStyle=0x7f02011e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f02011a;
+    public static final int splitTrack=0x7f02011f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f02011b;
+    public static final int srcCompat=0x7f020120;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f02011c;
+    public static final int state_above_anchor=0x7f020121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2281,53 +2318,53 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f02011d;
+    public static final int statusBarBackground=0x7f020122;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f02011e;
+    public static final int subMenuArrow=0x7f020123;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f02011f;
+    public static final int submitBackground=0x7f020124;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f020120;
+    public static final int subtitle=0x7f020125;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f020121;
+    public static final int subtitleTextAppearance=0x7f020126;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f020122;
+    public static final int subtitleTextColor=0x7f020127;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f020123;
+    public static final int subtitleTextStyle=0x7f020128;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f020124;
+    public static final int suggestionRowLayout=0x7f020129;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2335,7 +2372,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f020125;
+    public static final int switchMinWidth=0x7f02012a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2343,21 +2380,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f020126;
+    public static final int switchPadding=0x7f02012b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f020127;
+    public static final int switchStyle=0x7f02012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f020128;
+    public static final int switchTextAppearance=0x7f02012d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2366,73 +2403,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f020129;
+    public static final int textAllCaps=0x7f02012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f02012a;
+    public static final int textAppearanceLargePopupMenu=0x7f02012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f02012b;
+    public static final int textAppearanceListItem=0x7f020130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f02012c;
+    public static final int textAppearanceListItemSecondary=0x7f020131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f02012d;
+    public static final int textAppearanceListItemSmall=0x7f020132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f02012e;
+    public static final int textAppearancePopupMenuHeader=0x7f020133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f02012f;
+    public static final int textAppearanceSearchResultSubtitle=0x7f020134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f020130;
+    public static final int textAppearanceSearchResultTitle=0x7f020135;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f020131;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f020132;
+    public static final int textAppearanceSmallPopupMenu=0x7f020136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2442,14 +2469,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f020133;
+    public static final int textColorAlertDialogListItem=0x7f020137;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f020138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f020134;
+    public static final int theme=0x7f020139;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2457,7 +2494,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f020135;
+    public static final int thickness=0x7f02013a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2465,13 +2502,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f020136;
+    public static final int thumbTextPadding=0x7f02013b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f020137;
+    public static final int thumbTint=0x7f02013c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2487,20 +2524,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f020138;
+    public static final int thumbTintMode=0x7f02013d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f020139;
+    public static final int tickMark=0x7f02013e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f02013a;
+    public static final int tickMarkTint=0x7f02013f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2516,13 +2553,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f02013b;
+    public static final int tickMarkTintMode=0x7f020140;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f02013c;
+    public static final int tint=0x7f020141;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2538,12 +2575,12 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f02013d;
+    public static final int tintMode=0x7f020142;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f02013e;
+    public static final int title=0x7f020143;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2551,7 +2588,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f02013f;
+    public static final int titleMargin=0x7f020144;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2559,7 +2596,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f020140;
+    public static final int titleMarginBottom=0x7f020145;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2567,7 +2604,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f020141;
+    public static final int titleMarginEnd=0x7f020146;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2575,7 +2612,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f020142;
+    public static final int titleMarginStart=0x7f020147;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2583,7 +2620,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f020143;
+    public static final int titleMarginTop=0x7f020148;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2591,41 +2628,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f020144;
+    public static final int titleMargins=0x7f020149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f020145;
+    public static final int titleTextAppearance=0x7f02014a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f020146;
+    public static final int titleTextColor=0x7f02014b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f020147;
+    public static final int titleTextStyle=0x7f02014c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f020148;
+    public static final int toolbarNavigationButtonStyle=0x7f02014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f020149;
+    public static final int toolbarStyle=0x7f02014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2635,32 +2672,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f02014a;
+    public static final int tooltipForegroundColor=0x7f02014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f02014b;
+    public static final int tooltipFrameBackground=0x7f020150;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f02014c;
+    public static final int tooltipText=0x7f020151;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f02014d;
+    public static final int track=0x7f020152;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f02014e;
+    public static final int trackTint=0x7f020153;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2676,82 +2713,86 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f02014f;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiCompass=0x7f020150;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiMapToolbar=0x7f020151;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiRotateGestures=0x7f020152;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiScrollGestures=0x7f020153;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiTiltGestures=0x7f020154;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiZoomControls=0x7f020155;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int uiZoomGestures=0x7f020156;
+    public static final int trackTintMode=0x7f020154;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int unit=0x7f020157;
+    public static final int ttcIndex=0x7f020155;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useViewLifecycle=0x7f020158;
+    public static final int uiCompass=0x7f020156;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int uiMapToolbar=0x7f020157;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int uiRotateGestures=0x7f020158;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int uiScrollGestures=0x7f020159;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int uiTiltGestures=0x7f02015a;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int uiZoomControls=0x7f02015b;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int uiZoomGestures=0x7f02015c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int value=0x7f020159;
+    public static final int unit=0x7f02015d;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int useViewLifecycle=0x7f02015e;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int value=0x7f02015f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f02015a;
+    public static final int viewInflaterClass=0x7f020160;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f02015b;
+    public static final int voiceIcon=0x7f020161;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f02015c;
+    public static final int windowActionBar=0x7f020162;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f02015d;
+    public static final int windowActionBarOverlay=0x7f020163;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f02015e;
+    public static final int windowActionModeOverlay=0x7f020164;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2763,7 +2804,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f02015f;
+    public static final int windowFixedHeightMajor=0x7f020165;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2775,7 +2816,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f020160;
+    public static final int windowFixedHeightMinor=0x7f020166;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2787,7 +2828,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f020161;
+    public static final int windowFixedWidthMajor=0x7f020167;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2799,7 +2840,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f020162;
+    public static final int windowFixedWidthMinor=0x7f020168;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2811,7 +2852,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f020163;
+    public static final int windowMinWidthMajor=0x7f020169;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2823,23 +2864,22 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f020164;
+    public static final int windowMinWidthMinor=0x7f02016a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f020165;
+    public static final int windowNoTitle=0x7f02016b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zOrderOnTop=0x7f020166;
+    public static final int zOrderOnTop=0x7f02016c;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
     public static final int abc_allow_stacked_button_bar=0x7f030001;
     public static final int abc_config_actionMenuItemAllCaps=0x7f030002;
-    public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f030003;
   }
   public static final class color {
     public static final int abc_background_cache_hint_selector_material_dark=0x7f040000;
@@ -2899,55 +2939,56 @@ public final class R {
     public static final int dim_foreground_disabled_material_light=0x7f040036;
     public static final int dim_foreground_material_dark=0x7f040037;
     public static final int dim_foreground_material_light=0x7f040038;
-    public static final int error_color_material=0x7f040039;
-    public static final int foreground_material_dark=0x7f04003a;
-    public static final int foreground_material_light=0x7f04003b;
-    public static final int highlighted_text_material_dark=0x7f04003c;
-    public static final int highlighted_text_material_light=0x7f04003d;
-    public static final int ic_launcher_background=0x7f04003e;
-    public static final int material_blue_grey_800=0x7f04003f;
-    public static final int material_blue_grey_900=0x7f040040;
-    public static final int material_blue_grey_950=0x7f040041;
-    public static final int material_deep_teal_200=0x7f040042;
-    public static final int material_deep_teal_500=0x7f040043;
-    public static final int material_grey_100=0x7f040044;
-    public static final int material_grey_300=0x7f040045;
-    public static final int material_grey_50=0x7f040046;
-    public static final int material_grey_600=0x7f040047;
-    public static final int material_grey_800=0x7f040048;
-    public static final int material_grey_850=0x7f040049;
-    public static final int material_grey_900=0x7f04004a;
-    public static final int notification_action_color_filter=0x7f04004b;
-    public static final int notification_icon_bg_color=0x7f04004c;
-    public static final int notification_material_background_media_default_color=0x7f04004d;
-    public static final int place_autocomplete_prediction_primary_text=0x7f04004e;
-    public static final int place_autocomplete_prediction_primary_text_highlight=0x7f04004f;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f040050;
-    public static final int place_autocomplete_search_hint=0x7f040051;
-    public static final int place_autocomplete_search_text=0x7f040052;
-    public static final int place_autocomplete_separator=0x7f040053;
-    public static final int primary_dark_material_dark=0x7f040054;
-    public static final int primary_dark_material_light=0x7f040055;
-    public static final int primary_material_dark=0x7f040056;
-    public static final int primary_material_light=0x7f040057;
-    public static final int primary_text_default_material_dark=0x7f040058;
-    public static final int primary_text_default_material_light=0x7f040059;
-    public static final int primary_text_disabled_material_dark=0x7f04005a;
-    public static final int primary_text_disabled_material_light=0x7f04005b;
-    public static final int ripple_material_dark=0x7f04005c;
-    public static final int ripple_material_light=0x7f04005d;
-    public static final int secondary_text_default_material_dark=0x7f04005e;
-    public static final int secondary_text_default_material_light=0x7f04005f;
-    public static final int secondary_text_disabled_material_dark=0x7f040060;
-    public static final int secondary_text_disabled_material_light=0x7f040061;
-    public static final int switch_thumb_disabled_material_dark=0x7f040062;
-    public static final int switch_thumb_disabled_material_light=0x7f040063;
-    public static final int switch_thumb_material_dark=0x7f040064;
-    public static final int switch_thumb_material_light=0x7f040065;
-    public static final int switch_thumb_normal_material_dark=0x7f040066;
-    public static final int switch_thumb_normal_material_light=0x7f040067;
-    public static final int tooltip_background_dark=0x7f040068;
-    public static final int tooltip_background_light=0x7f040069;
+    public static final int error_color_material_dark=0x7f040039;
+    public static final int error_color_material_light=0x7f04003a;
+    public static final int foreground_material_dark=0x7f04003b;
+    public static final int foreground_material_light=0x7f04003c;
+    public static final int highlighted_text_material_dark=0x7f04003d;
+    public static final int highlighted_text_material_light=0x7f04003e;
+    public static final int ic_launcher_background=0x7f04003f;
+    public static final int material_blue_grey_800=0x7f040040;
+    public static final int material_blue_grey_900=0x7f040041;
+    public static final int material_blue_grey_950=0x7f040042;
+    public static final int material_deep_teal_200=0x7f040043;
+    public static final int material_deep_teal_500=0x7f040044;
+    public static final int material_grey_100=0x7f040045;
+    public static final int material_grey_300=0x7f040046;
+    public static final int material_grey_50=0x7f040047;
+    public static final int material_grey_600=0x7f040048;
+    public static final int material_grey_800=0x7f040049;
+    public static final int material_grey_850=0x7f04004a;
+    public static final int material_grey_900=0x7f04004b;
+    public static final int notification_action_color_filter=0x7f04004c;
+    public static final int notification_icon_bg_color=0x7f04004d;
+    public static final int notification_material_background_media_default_color=0x7f04004e;
+    public static final int place_autocomplete_prediction_primary_text=0x7f04004f;
+    public static final int place_autocomplete_prediction_primary_text_highlight=0x7f040050;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f040051;
+    public static final int place_autocomplete_search_hint=0x7f040052;
+    public static final int place_autocomplete_search_text=0x7f040053;
+    public static final int place_autocomplete_separator=0x7f040054;
+    public static final int primary_dark_material_dark=0x7f040055;
+    public static final int primary_dark_material_light=0x7f040056;
+    public static final int primary_material_dark=0x7f040057;
+    public static final int primary_material_light=0x7f040058;
+    public static final int primary_text_default_material_dark=0x7f040059;
+    public static final int primary_text_default_material_light=0x7f04005a;
+    public static final int primary_text_disabled_material_dark=0x7f04005b;
+    public static final int primary_text_disabled_material_light=0x7f04005c;
+    public static final int ripple_material_dark=0x7f04005d;
+    public static final int ripple_material_light=0x7f04005e;
+    public static final int secondary_text_default_material_dark=0x7f04005f;
+    public static final int secondary_text_default_material_light=0x7f040060;
+    public static final int secondary_text_disabled_material_dark=0x7f040061;
+    public static final int secondary_text_disabled_material_light=0x7f040062;
+    public static final int switch_thumb_disabled_material_dark=0x7f040063;
+    public static final int switch_thumb_disabled_material_light=0x7f040064;
+    public static final int switch_thumb_material_dark=0x7f040065;
+    public static final int switch_thumb_material_light=0x7f040066;
+    public static final int switch_thumb_normal_material_dark=0x7f040067;
+    public static final int switch_thumb_normal_material_light=0x7f040068;
+    public static final int tooltip_background_dark=0x7f040069;
+    public static final int tooltip_background_light=0x7f04006a;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -2959,25 +3000,25 @@ public final class R {
     public static final int abc_action_bar_icon_vertical_padding_material=0x7f050006;
     public static final int abc_action_bar_overflow_padding_end_material=0x7f050007;
     public static final int abc_action_bar_overflow_padding_start_material=0x7f050008;
-    public static final int abc_action_bar_progress_bar_size=0x7f050009;
-    public static final int abc_action_bar_stacked_max_height=0x7f05000a;
-    public static final int abc_action_bar_stacked_tab_max_width=0x7f05000b;
-    public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f05000c;
-    public static final int abc_action_bar_subtitle_top_margin_material=0x7f05000d;
-    public static final int abc_action_button_min_height_material=0x7f05000e;
-    public static final int abc_action_button_min_width_material=0x7f05000f;
-    public static final int abc_action_button_min_width_overflow_material=0x7f050010;
-    public static final int abc_alert_dialog_button_bar_height=0x7f050011;
-    public static final int abc_alert_dialog_button_dimen=0x7f050012;
-    public static final int abc_button_inset_horizontal_material=0x7f050013;
-    public static final int abc_button_inset_vertical_material=0x7f050014;
-    public static final int abc_button_padding_horizontal_material=0x7f050015;
-    public static final int abc_button_padding_vertical_material=0x7f050016;
-    public static final int abc_cascading_menus_min_smallest_width=0x7f050017;
-    public static final int abc_config_prefDialogWidth=0x7f050018;
-    public static final int abc_control_corner_material=0x7f050019;
-    public static final int abc_control_inset_material=0x7f05001a;
-    public static final int abc_control_padding_material=0x7f05001b;
+    public static final int abc_action_bar_stacked_max_height=0x7f050009;
+    public static final int abc_action_bar_stacked_tab_max_width=0x7f05000a;
+    public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f05000b;
+    public static final int abc_action_bar_subtitle_top_margin_material=0x7f05000c;
+    public static final int abc_action_button_min_height_material=0x7f05000d;
+    public static final int abc_action_button_min_width_material=0x7f05000e;
+    public static final int abc_action_button_min_width_overflow_material=0x7f05000f;
+    public static final int abc_alert_dialog_button_bar_height=0x7f050010;
+    public static final int abc_alert_dialog_button_dimen=0x7f050011;
+    public static final int abc_button_inset_horizontal_material=0x7f050012;
+    public static final int abc_button_inset_vertical_material=0x7f050013;
+    public static final int abc_button_padding_horizontal_material=0x7f050014;
+    public static final int abc_button_padding_vertical_material=0x7f050015;
+    public static final int abc_cascading_menus_min_smallest_width=0x7f050016;
+    public static final int abc_config_prefDialogWidth=0x7f050017;
+    public static final int abc_control_corner_material=0x7f050018;
+    public static final int abc_control_inset_material=0x7f050019;
+    public static final int abc_control_padding_material=0x7f05001a;
+    public static final int abc_dialog_corner_radius_material=0x7f05001b;
     public static final int abc_dialog_fixed_height_major=0x7f05001c;
     public static final int abc_dialog_fixed_height_minor=0x7f05001d;
     public static final int abc_dialog_fixed_width_major=0x7f05001e;
@@ -3030,90 +3071,93 @@ public final class R {
     public static final int compat_button_padding_horizontal_material=0x7f05004d;
     public static final int compat_button_padding_vertical_material=0x7f05004e;
     public static final int compat_control_corner_material=0x7f05004f;
-    public static final int disabled_alpha_material_dark=0x7f050050;
-    public static final int disabled_alpha_material_light=0x7f050051;
-    public static final int highlight_alpha_material_colored=0x7f050052;
-    public static final int highlight_alpha_material_dark=0x7f050053;
-    public static final int highlight_alpha_material_light=0x7f050054;
-    public static final int hint_alpha_material_dark=0x7f050055;
-    public static final int hint_alpha_material_light=0x7f050056;
-    public static final int hint_pressed_alpha_material_dark=0x7f050057;
-    public static final int hint_pressed_alpha_material_light=0x7f050058;
-    public static final int notification_action_icon_size=0x7f050059;
-    public static final int notification_action_text_size=0x7f05005a;
-    public static final int notification_big_circle_margin=0x7f05005b;
-    public static final int notification_content_margin_start=0x7f05005c;
-    public static final int notification_large_icon_height=0x7f05005d;
-    public static final int notification_large_icon_width=0x7f05005e;
-    public static final int notification_main_column_padding_top=0x7f05005f;
-    public static final int notification_media_narrow_margin=0x7f050060;
-    public static final int notification_right_icon_size=0x7f050061;
-    public static final int notification_right_side_padding_top=0x7f050062;
-    public static final int notification_small_icon_background_padding=0x7f050063;
-    public static final int notification_small_icon_size_as_large=0x7f050064;
-    public static final int notification_subtext_size=0x7f050065;
-    public static final int notification_top_pad=0x7f050066;
-    public static final int notification_top_pad_large_text=0x7f050067;
-    public static final int place_autocomplete_button_padding=0x7f050068;
-    public static final int place_autocomplete_powered_by_google_height=0x7f050069;
-    public static final int place_autocomplete_powered_by_google_start=0x7f05006a;
-    public static final int place_autocomplete_prediction_height=0x7f05006b;
-    public static final int place_autocomplete_prediction_horizontal_margin=0x7f05006c;
-    public static final int place_autocomplete_prediction_primary_text=0x7f05006d;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f05006e;
-    public static final int place_autocomplete_progress_horizontal_margin=0x7f05006f;
-    public static final int place_autocomplete_progress_size=0x7f050070;
-    public static final int place_autocomplete_separator_start=0x7f050071;
-    public static final int tooltip_corner_radius=0x7f050072;
-    public static final int tooltip_horizontal_padding=0x7f050073;
-    public static final int tooltip_margin=0x7f050074;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f050075;
-    public static final int tooltip_precise_anchor_threshold=0x7f050076;
-    public static final int tooltip_vertical_padding=0x7f050077;
-    public static final int tooltip_y_offset_non_touch=0x7f050078;
-    public static final int tooltip_y_offset_touch=0x7f050079;
+    public static final int compat_notification_large_icon_max_height=0x7f050050;
+    public static final int compat_notification_large_icon_max_width=0x7f050051;
+    public static final int disabled_alpha_material_dark=0x7f050052;
+    public static final int disabled_alpha_material_light=0x7f050053;
+    public static final int highlight_alpha_material_colored=0x7f050054;
+    public static final int highlight_alpha_material_dark=0x7f050055;
+    public static final int highlight_alpha_material_light=0x7f050056;
+    public static final int hint_alpha_material_dark=0x7f050057;
+    public static final int hint_alpha_material_light=0x7f050058;
+    public static final int hint_pressed_alpha_material_dark=0x7f050059;
+    public static final int hint_pressed_alpha_material_light=0x7f05005a;
+    public static final int notification_action_icon_size=0x7f05005b;
+    public static final int notification_action_text_size=0x7f05005c;
+    public static final int notification_big_circle_margin=0x7f05005d;
+    public static final int notification_content_margin_start=0x7f05005e;
+    public static final int notification_large_icon_height=0x7f05005f;
+    public static final int notification_large_icon_width=0x7f050060;
+    public static final int notification_main_column_padding_top=0x7f050061;
+    public static final int notification_media_narrow_margin=0x7f050062;
+    public static final int notification_right_icon_size=0x7f050063;
+    public static final int notification_right_side_padding_top=0x7f050064;
+    public static final int notification_small_icon_background_padding=0x7f050065;
+    public static final int notification_small_icon_size_as_large=0x7f050066;
+    public static final int notification_subtext_size=0x7f050067;
+    public static final int notification_top_pad=0x7f050068;
+    public static final int notification_top_pad_large_text=0x7f050069;
+    public static final int place_autocomplete_button_padding=0x7f05006a;
+    public static final int place_autocomplete_powered_by_google_height=0x7f05006b;
+    public static final int place_autocomplete_powered_by_google_start=0x7f05006c;
+    public static final int place_autocomplete_prediction_height=0x7f05006d;
+    public static final int place_autocomplete_prediction_horizontal_margin=0x7f05006e;
+    public static final int place_autocomplete_prediction_primary_text=0x7f05006f;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f050070;
+    public static final int place_autocomplete_progress_horizontal_margin=0x7f050071;
+    public static final int place_autocomplete_progress_size=0x7f050072;
+    public static final int place_autocomplete_separator_start=0x7f050073;
+    public static final int tooltip_corner_radius=0x7f050074;
+    public static final int tooltip_horizontal_padding=0x7f050075;
+    public static final int tooltip_margin=0x7f050076;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f050077;
+    public static final int tooltip_precise_anchor_threshold=0x7f050078;
+    public static final int tooltip_vertical_padding=0x7f050079;
+    public static final int tooltip_y_offset_non_touch=0x7f05007a;
+    public static final int tooltip_y_offset_touch=0x7f05007b;
   }
   public static final class drawable {
-    public static final int abc_ab_share_pack_mtrl_alpha=0x7f060001;
-    public static final int abc_action_bar_item_background_material=0x7f060002;
-    public static final int abc_btn_borderless_material=0x7f060003;
-    public static final int abc_btn_check_material=0x7f060004;
-    public static final int abc_btn_check_to_on_mtrl_000=0x7f060005;
-    public static final int abc_btn_check_to_on_mtrl_015=0x7f060006;
-    public static final int abc_btn_colored_material=0x7f060007;
-    public static final int abc_btn_default_mtrl_shape=0x7f060008;
-    public static final int abc_btn_radio_material=0x7f060009;
-    public static final int abc_btn_radio_to_on_mtrl_000=0x7f06000a;
-    public static final int abc_btn_radio_to_on_mtrl_015=0x7f06000b;
-    public static final int abc_btn_switch_to_on_mtrl_00001=0x7f06000c;
-    public static final int abc_btn_switch_to_on_mtrl_00012=0x7f06000d;
-    public static final int abc_cab_background_internal_bg=0x7f06000e;
-    public static final int abc_cab_background_top_material=0x7f06000f;
-    public static final int abc_cab_background_top_mtrl_alpha=0x7f060010;
-    public static final int abc_control_background_material=0x7f060011;
-    public static final int abc_dialog_material_background=0x7f060012;
-    public static final int abc_edit_text_material=0x7f060013;
-    public static final int abc_ic_ab_back_material=0x7f060014;
-    public static final int abc_ic_arrow_drop_right_black_24dp=0x7f060015;
-    public static final int abc_ic_clear_material=0x7f060016;
-    public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f060017;
-    public static final int abc_ic_go_search_api_material=0x7f060018;
-    public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f060019;
-    public static final int abc_ic_menu_cut_mtrl_alpha=0x7f06001a;
-    public static final int abc_ic_menu_overflow_material=0x7f06001b;
-    public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f06001c;
-    public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f06001d;
-    public static final int abc_ic_menu_share_mtrl_alpha=0x7f06001e;
-    public static final int abc_ic_search_api_material=0x7f06001f;
-    public static final int abc_ic_star_black_16dp=0x7f060020;
-    public static final int abc_ic_star_black_36dp=0x7f060021;
-    public static final int abc_ic_star_black_48dp=0x7f060022;
-    public static final int abc_ic_star_half_black_16dp=0x7f060023;
-    public static final int abc_ic_star_half_black_36dp=0x7f060024;
-    public static final int abc_ic_star_half_black_48dp=0x7f060025;
-    public static final int abc_ic_voice_search_api_material=0x7f060026;
-    public static final int abc_item_background_holo_dark=0x7f060027;
-    public static final int abc_item_background_holo_light=0x7f060028;
+    public static final int abc_ab_share_pack_mtrl_alpha=0x7f060000;
+    public static final int abc_action_bar_item_background_material=0x7f060001;
+    public static final int abc_btn_borderless_material=0x7f060002;
+    public static final int abc_btn_check_material=0x7f060003;
+    public static final int abc_btn_check_to_on_mtrl_000=0x7f060004;
+    public static final int abc_btn_check_to_on_mtrl_015=0x7f060005;
+    public static final int abc_btn_colored_material=0x7f060006;
+    public static final int abc_btn_default_mtrl_shape=0x7f060007;
+    public static final int abc_btn_radio_material=0x7f060008;
+    public static final int abc_btn_radio_to_on_mtrl_000=0x7f060009;
+    public static final int abc_btn_radio_to_on_mtrl_015=0x7f06000a;
+    public static final int abc_btn_switch_to_on_mtrl_00001=0x7f06000b;
+    public static final int abc_btn_switch_to_on_mtrl_00012=0x7f06000c;
+    public static final int abc_cab_background_internal_bg=0x7f06000d;
+    public static final int abc_cab_background_top_material=0x7f06000e;
+    public static final int abc_cab_background_top_mtrl_alpha=0x7f06000f;
+    public static final int abc_control_background_material=0x7f060010;
+    public static final int abc_dialog_material_background=0x7f060011;
+    public static final int abc_edit_text_material=0x7f060012;
+    public static final int abc_ic_ab_back_material=0x7f060013;
+    public static final int abc_ic_arrow_drop_right_black_24dp=0x7f060014;
+    public static final int abc_ic_clear_material=0x7f060015;
+    public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f060016;
+    public static final int abc_ic_go_search_api_material=0x7f060017;
+    public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f060018;
+    public static final int abc_ic_menu_cut_mtrl_alpha=0x7f060019;
+    public static final int abc_ic_menu_overflow_material=0x7f06001a;
+    public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f06001b;
+    public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f06001c;
+    public static final int abc_ic_menu_share_mtrl_alpha=0x7f06001d;
+    public static final int abc_ic_search_api_material=0x7f06001e;
+    public static final int abc_ic_star_black_16dp=0x7f06001f;
+    public static final int abc_ic_star_black_36dp=0x7f060020;
+    public static final int abc_ic_star_black_48dp=0x7f060021;
+    public static final int abc_ic_star_half_black_16dp=0x7f060022;
+    public static final int abc_ic_star_half_black_36dp=0x7f060023;
+    public static final int abc_ic_star_half_black_48dp=0x7f060024;
+    public static final int abc_ic_voice_search_api_material=0x7f060025;
+    public static final int abc_item_background_holo_dark=0x7f060026;
+    public static final int abc_item_background_holo_light=0x7f060027;
+    public static final int abc_list_divider_material=0x7f060028;
     public static final int abc_list_divider_mtrl_alpha=0x7f060029;
     public static final int abc_list_focused_holo=0x7f06002a;
     public static final int abc_list_longpressed_holo=0x7f06002b;
@@ -3182,26 +3226,24 @@ public final class R {
     public static final int common_google_signin_btn_text_light_normal_background=0x7f06006a;
     public static final int googleg_disabled_color_18=0x7f06006b;
     public static final int googleg_standard_color_18=0x7f06006c;
-    public static final int ic_launcher_background=0x7f06006d;
-    public static final int ic_launcher_foreground=0x7f06006e;
-    public static final int notification_action_background=0x7f06006f;
-    public static final int notification_bg=0x7f060070;
-    public static final int notification_bg_low=0x7f060071;
-    public static final int notification_bg_low_normal=0x7f060072;
-    public static final int notification_bg_low_pressed=0x7f060073;
-    public static final int notification_bg_normal=0x7f060074;
-    public static final int notification_bg_normal_pressed=0x7f060075;
-    public static final int notification_icon_background=0x7f060076;
-    public static final int notification_template_icon_bg=0x7f060077;
-    public static final int notification_template_icon_low_bg=0x7f060078;
-    public static final int notification_tile_bg=0x7f060079;
-    public static final int notify_panel_notification_icon_bg=0x7f06007a;
-    public static final int places_ic_clear=0x7f06007b;
-    public static final int places_ic_search=0x7f06007c;
-    public static final int powered_by_google_dark=0x7f06007d;
-    public static final int powered_by_google_light=0x7f06007e;
-    public static final int tooltip_frame_dark=0x7f06007f;
-    public static final int tooltip_frame_light=0x7f060080;
+    public static final int notification_action_background=0x7f06006d;
+    public static final int notification_bg=0x7f06006e;
+    public static final int notification_bg_low=0x7f06006f;
+    public static final int notification_bg_low_normal=0x7f060070;
+    public static final int notification_bg_low_pressed=0x7f060071;
+    public static final int notification_bg_normal=0x7f060072;
+    public static final int notification_bg_normal_pressed=0x7f060073;
+    public static final int notification_icon_background=0x7f060074;
+    public static final int notification_template_icon_bg=0x7f060075;
+    public static final int notification_template_icon_low_bg=0x7f060076;
+    public static final int notification_tile_bg=0x7f060077;
+    public static final int notify_panel_notification_icon_bg=0x7f060078;
+    public static final int places_ic_clear=0x7f060079;
+    public static final int places_ic_search=0x7f06007a;
+    public static final int powered_by_google_dark=0x7f06007b;
+    public static final int powered_by_google_light=0x7f06007c;
+    public static final int tooltip_frame_dark=0x7f06007d;
+    public static final int tooltip_frame_light=0x7f06007e;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3255,135 +3297,138 @@ public final class R {
     public static final int clip_horizontal=0x7f070030;
     public static final int clip_vertical=0x7f070031;
     public static final int collapseActionView=0x7f070032;
-    public static final int contentPanel=0x7f070033;
-    public static final int custom=0x7f070034;
-    public static final int customPanel=0x7f070035;
-    public static final int dark=0x7f070036;
-    public static final int decor_content_parent=0x7f070037;
-    public static final int decrement=0x7f070038;
-    public static final int default_activity_button=0x7f070039;
-    public static final int destination=0x7f07003a;
-    public static final int dimensions=0x7f07003b;
-    public static final int direct=0x7f07003c;
-    public static final int disableHome=0x7f07003d;
-    public static final int display=0x7f07003e;
-    public static final int edit_query=0x7f07003f;
-    public static final int end=0x7f070040;
-    public static final int end_padder=0x7f070041;
-    public static final int expand_activities_button=0x7f070042;
-    public static final int expanded_menu=0x7f070043;
-    public static final int fill=0x7f070044;
-    public static final int fill_horizontal=0x7f070045;
-    public static final int fill_vertical=0x7f070046;
-    public static final int forever=0x7f070047;
-    public static final int gone=0x7f070048;
-    public static final int groups=0x7f070049;
-    public static final int home=0x7f07004a;
-    public static final int homeAsUp=0x7f07004b;
-    public static final int hybrid=0x7f07004c;
-    public static final int icon=0x7f07004d;
-    public static final int icon_group=0x7f07004e;
-    public static final int icon_only=0x7f07004f;
-    public static final int ifRoom=0x7f070050;
-    public static final int image=0x7f070051;
-    public static final int increment=0x7f070052;
-    public static final int info=0x7f070053;
-    public static final int invisible=0x7f070054;
-    public static final int italic=0x7f070055;
-    public static final int left=0x7f070056;
-    public static final int light=0x7f070057;
-    public static final int line1=0x7f070058;
-    public static final int line3=0x7f070059;
-    public static final int listMode=0x7f07005a;
-    public static final int list_item=0x7f07005b;
-    public static final int map=0x7f07005c;
-    public static final int media_actions=0x7f07005d;
-    public static final int message=0x7f07005e;
-    public static final int middle=0x7f07005f;
-    public static final int midwayStop=0x7f070060;
-    public static final int multiplier=0x7f070061;
-    public static final int multiply=0x7f070062;
-    public static final int name=0x7f070063;
-    public static final int never=0x7f070064;
-    public static final int none=0x7f070065;
-    public static final int normal=0x7f070066;
-    public static final int notification_background=0x7f070067;
-    public static final int notification_main_column=0x7f070068;
-    public static final int notification_main_column_container=0x7f070069;
-    public static final int origin=0x7f07006a;
-    public static final int packed=0x7f07006b;
-    public static final int parent=0x7f07006c;
-    public static final int parentPanel=0x7f07006d;
-    public static final int percent=0x7f07006e;
-    public static final int place_autocomplete_clear_button=0x7f07006f;
-    public static final int place_autocomplete_powered_by_google=0x7f070070;
-    public static final int place_autocomplete_prediction_primary_text=0x7f070071;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f070072;
-    public static final int place_autocomplete_progress=0x7f070073;
-    public static final int place_autocomplete_search_button=0x7f070074;
-    public static final int place_autocomplete_search_input=0x7f070075;
-    public static final int place_autocomplete_separator=0x7f070076;
-    public static final int progress_circular=0x7f070077;
-    public static final int progress_horizontal=0x7f070078;
-    public static final int radio=0x7f070079;
-    public static final int right=0x7f07007a;
-    public static final int right_icon=0x7f07007b;
-    public static final int right_side=0x7f07007c;
-    public static final int satellite=0x7f07007d;
-    public static final int screen=0x7f07007e;
-    public static final int scrollIndicatorDown=0x7f07007f;
-    public static final int scrollIndicatorUp=0x7f070080;
-    public static final int scrollView=0x7f070081;
-    public static final int search_badge=0x7f070082;
-    public static final int search_bar=0x7f070083;
-    public static final int search_button=0x7f070084;
-    public static final int search_close_btn=0x7f070085;
-    public static final int search_edit_frame=0x7f070086;
-    public static final int search_go_btn=0x7f070087;
-    public static final int search_mag_icon=0x7f070088;
-    public static final int search_plate=0x7f070089;
-    public static final int search_src_text=0x7f07008a;
-    public static final int search_voice_btn=0x7f07008b;
-    public static final int select_dialog_listview=0x7f07008c;
-    public static final int shortcut=0x7f07008d;
-    public static final int showCustom=0x7f07008e;
-    public static final int showHome=0x7f07008f;
-    public static final int showTitle=0x7f070090;
-    public static final int spacer=0x7f070091;
-    public static final int split_action_bar=0x7f070092;
-    public static final int spread=0x7f070093;
-    public static final int spread_inside=0x7f070094;
-    public static final int src_atop=0x7f070095;
-    public static final int src_in=0x7f070096;
-    public static final int src_over=0x7f070097;
-    public static final int standard=0x7f070098;
-    public static final int start=0x7f070099;
-    public static final int status_bar_latest_event_content=0x7f07009a;
-    public static final int submenuarrow=0x7f07009b;
-    public static final int submitButton=0x7f07009c;
-    public static final int submit_area=0x7f07009d;
-    public static final int tabMode=0x7f07009e;
-    public static final int tag_transition_group=0x7f07009f;
-    public static final int terrain=0x7f0700a0;
-    public static final int text=0x7f0700a1;
-    public static final int text2=0x7f0700a2;
-    public static final int textSpacerNoButtons=0x7f0700a3;
-    public static final int textSpacerNoTitle=0x7f0700a4;
-    public static final int time=0x7f0700a5;
-    public static final int title=0x7f0700a6;
-    public static final int titleDividerNoCustom=0x7f0700a7;
-    public static final int title_template=0x7f0700a8;
-    public static final int top=0x7f0700a9;
-    public static final int topPanel=0x7f0700aa;
-    public static final int uniform=0x7f0700ab;
-    public static final int up=0x7f0700ac;
-    public static final int useLogo=0x7f0700ad;
-    public static final int webview=0x7f0700ae;
-    public static final int wide=0x7f0700af;
-    public static final int window=0x7f0700b0;
-    public static final int withText=0x7f0700b1;
-    public static final int wrap=0x7f0700b2;
-    public static final int wrap_content=0x7f0700b3;
+    public static final int content=0x7f070033;
+    public static final int contentPanel=0x7f070034;
+    public static final int custom=0x7f070035;
+    public static final int customPanel=0x7f070036;
+    public static final int dark=0x7f070037;
+    public static final int decor_content_parent=0x7f070038;
+    public static final int decrement=0x7f070039;
+    public static final int default_activity_button=0x7f07003a;
+    public static final int destination=0x7f07003b;
+    public static final int dimensions=0x7f07003c;
+    public static final int direct=0x7f07003d;
+    public static final int disableHome=0x7f07003e;
+    public static final int display=0x7f07003f;
+    public static final int edit_query=0x7f070040;
+    public static final int end=0x7f070041;
+    public static final int end_padder=0x7f070042;
+    public static final int expand_activities_button=0x7f070043;
+    public static final int expanded_menu=0x7f070044;
+    public static final int fill=0x7f070045;
+    public static final int fill_horizontal=0x7f070046;
+    public static final int fill_vertical=0x7f070047;
+    public static final int forever=0x7f070048;
+    public static final int gone=0x7f070049;
+    public static final int group_divider=0x7f07004a;
+    public static final int groups=0x7f07004b;
+    public static final int home=0x7f07004c;
+    public static final int homeAsUp=0x7f07004d;
+    public static final int hybrid=0x7f07004e;
+    public static final int icon=0x7f07004f;
+    public static final int icon_group=0x7f070050;
+    public static final int icon_only=0x7f070051;
+    public static final int ifRoom=0x7f070052;
+    public static final int image=0x7f070053;
+    public static final int increment=0x7f070054;
+    public static final int info=0x7f070055;
+    public static final int invisible=0x7f070056;
+    public static final int italic=0x7f070057;
+    public static final int left=0x7f070058;
+    public static final int light=0x7f070059;
+    public static final int line1=0x7f07005a;
+    public static final int line3=0x7f07005b;
+    public static final int listMode=0x7f07005c;
+    public static final int list_item=0x7f07005d;
+    public static final int map=0x7f07005e;
+    public static final int media_actions=0x7f07005f;
+    public static final int message=0x7f070060;
+    public static final int middle=0x7f070061;
+    public static final int midwayStop=0x7f070062;
+    public static final int multiplier=0x7f070063;
+    public static final int multiply=0x7f070064;
+    public static final int name=0x7f070065;
+    public static final int never=0x7f070066;
+    public static final int none=0x7f070067;
+    public static final int normal=0x7f070068;
+    public static final int notification_background=0x7f070069;
+    public static final int notification_main_column=0x7f07006a;
+    public static final int notification_main_column_container=0x7f07006b;
+    public static final int origin=0x7f07006c;
+    public static final int packed=0x7f07006d;
+    public static final int parent=0x7f07006e;
+    public static final int parentPanel=0x7f07006f;
+    public static final int percent=0x7f070070;
+    public static final int place_autocomplete_clear_button=0x7f070071;
+    public static final int place_autocomplete_powered_by_google=0x7f070072;
+    public static final int place_autocomplete_prediction_primary_text=0x7f070073;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f070074;
+    public static final int place_autocomplete_progress=0x7f070075;
+    public static final int place_autocomplete_search_button=0x7f070076;
+    public static final int place_autocomplete_search_input=0x7f070077;
+    public static final int place_autocomplete_separator=0x7f070078;
+    public static final int progress_circular=0x7f070079;
+    public static final int progress_horizontal=0x7f07007a;
+    public static final int radio=0x7f07007b;
+    public static final int right=0x7f07007c;
+    public static final int right_icon=0x7f07007d;
+    public static final int right_side=0x7f07007e;
+    public static final int satellite=0x7f07007f;
+    public static final int screen=0x7f070080;
+    public static final int scrollIndicatorDown=0x7f070081;
+    public static final int scrollIndicatorUp=0x7f070082;
+    public static final int scrollView=0x7f070083;
+    public static final int search_badge=0x7f070084;
+    public static final int search_bar=0x7f070085;
+    public static final int search_button=0x7f070086;
+    public static final int search_close_btn=0x7f070087;
+    public static final int search_edit_frame=0x7f070088;
+    public static final int search_go_btn=0x7f070089;
+    public static final int search_mag_icon=0x7f07008a;
+    public static final int search_plate=0x7f07008b;
+    public static final int search_src_text=0x7f07008c;
+    public static final int search_voice_btn=0x7f07008d;
+    public static final int select_dialog_listview=0x7f07008e;
+    public static final int shortcut=0x7f07008f;
+    public static final int showCustom=0x7f070090;
+    public static final int showHome=0x7f070091;
+    public static final int showTitle=0x7f070092;
+    public static final int spacer=0x7f070093;
+    public static final int split_action_bar=0x7f070094;
+    public static final int spread=0x7f070095;
+    public static final int spread_inside=0x7f070096;
+    public static final int src_atop=0x7f070097;
+    public static final int src_in=0x7f070098;
+    public static final int src_over=0x7f070099;
+    public static final int standard=0x7f07009a;
+    public static final int start=0x7f07009b;
+    public static final int status_bar_latest_event_content=0x7f07009c;
+    public static final int submenuarrow=0x7f07009d;
+    public static final int submit_area=0x7f07009e;
+    public static final int tabMode=0x7f07009f;
+    public static final int tag_transition_group=0x7f0700a0;
+    public static final int tag_unhandled_key_event_manager=0x7f0700a1;
+    public static final int tag_unhandled_key_listeners=0x7f0700a2;
+    public static final int terrain=0x7f0700a3;
+    public static final int text=0x7f0700a4;
+    public static final int text2=0x7f0700a5;
+    public static final int textSpacerNoButtons=0x7f0700a6;
+    public static final int textSpacerNoTitle=0x7f0700a7;
+    public static final int time=0x7f0700a8;
+    public static final int title=0x7f0700a9;
+    public static final int titleDividerNoCustom=0x7f0700aa;
+    public static final int title_template=0x7f0700ab;
+    public static final int top=0x7f0700ac;
+    public static final int topPanel=0x7f0700ad;
+    public static final int uniform=0x7f0700ae;
+    public static final int up=0x7f0700af;
+    public static final int useLogo=0x7f0700b0;
+    public static final int webview=0x7f0700b1;
+    public static final int wide=0x7f0700b2;
+    public static final int window=0x7f0700b3;
+    public static final int withText=0x7f0700b4;
+    public static final int wrap=0x7f0700b5;
+    public static final int wrap_content=0x7f0700b6;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3405,50 +3450,51 @@ public final class R {
     public static final int abc_alert_dialog_button_bar_material=0x7f090008;
     public static final int abc_alert_dialog_material=0x7f090009;
     public static final int abc_alert_dialog_title_material=0x7f09000a;
-    public static final int abc_dialog_title_material=0x7f09000b;
-    public static final int abc_expanded_menu_layout=0x7f09000c;
-    public static final int abc_list_menu_item_checkbox=0x7f09000d;
-    public static final int abc_list_menu_item_icon=0x7f09000e;
-    public static final int abc_list_menu_item_layout=0x7f09000f;
-    public static final int abc_list_menu_item_radio=0x7f090010;
-    public static final int abc_popup_menu_header_item_layout=0x7f090011;
-    public static final int abc_popup_menu_item_layout=0x7f090012;
-    public static final int abc_screen_content_include=0x7f090013;
-    public static final int abc_screen_simple=0x7f090014;
-    public static final int abc_screen_simple_overlay_action_mode=0x7f090015;
-    public static final int abc_screen_toolbar=0x7f090016;
-    public static final int abc_search_dropdown_item_icons_2line=0x7f090017;
-    public static final int abc_search_view=0x7f090018;
-    public static final int abc_select_dialog_material=0x7f090019;
-    public static final int abc_tooltip=0x7f09001a;
-    public static final int activity_main=0x7f09001b;
-    public static final int amu_info_window=0x7f09001c;
-    public static final int amu_text_bubble=0x7f09001d;
-    public static final int amu_webview=0x7f09001e;
-    public static final int notification_action=0x7f09001f;
-    public static final int notification_action_tombstone=0x7f090020;
-    public static final int notification_media_action=0x7f090021;
-    public static final int notification_media_cancel_action=0x7f090022;
-    public static final int notification_template_big_media=0x7f090023;
-    public static final int notification_template_big_media_custom=0x7f090024;
-    public static final int notification_template_big_media_narrow=0x7f090025;
-    public static final int notification_template_big_media_narrow_custom=0x7f090026;
-    public static final int notification_template_custom_big=0x7f090027;
-    public static final int notification_template_icon_group=0x7f090028;
-    public static final int notification_template_lines_media=0x7f090029;
-    public static final int notification_template_media=0x7f09002a;
-    public static final int notification_template_media_custom=0x7f09002b;
-    public static final int notification_template_part_chronometer=0x7f09002c;
-    public static final int notification_template_part_time=0x7f09002d;
-    public static final int number_picker_layout=0x7f09002e;
-    public static final int place_autocomplete_fragment=0x7f09002f;
-    public static final int place_autocomplete_item_powered_by_google=0x7f090030;
-    public static final int place_autocomplete_item_prediction=0x7f090031;
-    public static final int place_autocomplete_progress=0x7f090032;
-    public static final int select_dialog_item_material=0x7f090033;
-    public static final int select_dialog_multichoice_material=0x7f090034;
-    public static final int select_dialog_singlechoice_material=0x7f090035;
-    public static final int support_simple_spinner_dropdown_item=0x7f090036;
+    public static final int abc_cascading_menu_item_layout=0x7f09000b;
+    public static final int abc_dialog_title_material=0x7f09000c;
+    public static final int abc_expanded_menu_layout=0x7f09000d;
+    public static final int abc_list_menu_item_checkbox=0x7f09000e;
+    public static final int abc_list_menu_item_icon=0x7f09000f;
+    public static final int abc_list_menu_item_layout=0x7f090010;
+    public static final int abc_list_menu_item_radio=0x7f090011;
+    public static final int abc_popup_menu_header_item_layout=0x7f090012;
+    public static final int abc_popup_menu_item_layout=0x7f090013;
+    public static final int abc_screen_content_include=0x7f090014;
+    public static final int abc_screen_simple=0x7f090015;
+    public static final int abc_screen_simple_overlay_action_mode=0x7f090016;
+    public static final int abc_screen_toolbar=0x7f090017;
+    public static final int abc_search_dropdown_item_icons_2line=0x7f090018;
+    public static final int abc_search_view=0x7f090019;
+    public static final int abc_select_dialog_material=0x7f09001a;
+    public static final int abc_tooltip=0x7f09001b;
+    public static final int activity_main=0x7f09001c;
+    public static final int amu_info_window=0x7f09001d;
+    public static final int amu_text_bubble=0x7f09001e;
+    public static final int amu_webview=0x7f09001f;
+    public static final int notification_action=0x7f090020;
+    public static final int notification_action_tombstone=0x7f090021;
+    public static final int notification_media_action=0x7f090022;
+    public static final int notification_media_cancel_action=0x7f090023;
+    public static final int notification_template_big_media=0x7f090024;
+    public static final int notification_template_big_media_custom=0x7f090025;
+    public static final int notification_template_big_media_narrow=0x7f090026;
+    public static final int notification_template_big_media_narrow_custom=0x7f090027;
+    public static final int notification_template_custom_big=0x7f090028;
+    public static final int notification_template_icon_group=0x7f090029;
+    public static final int notification_template_lines_media=0x7f09002a;
+    public static final int notification_template_media=0x7f09002b;
+    public static final int notification_template_media_custom=0x7f09002c;
+    public static final int notification_template_part_chronometer=0x7f09002d;
+    public static final int notification_template_part_time=0x7f09002e;
+    public static final int number_picker_layout=0x7f09002f;
+    public static final int place_autocomplete_fragment=0x7f090030;
+    public static final int place_autocomplete_item_powered_by_google=0x7f090031;
+    public static final int place_autocomplete_item_prediction=0x7f090032;
+    public static final int place_autocomplete_progress=0x7f090033;
+    public static final int select_dialog_item_material=0x7f090034;
+    public static final int select_dialog_multichoice_material=0x7f090035;
+    public static final int select_dialog_singlechoice_material=0x7f090036;
+    public static final int support_simple_spinner_dropdown_item=0x7f090037;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;
@@ -3498,44 +3544,49 @@ public final class R {
     public static final int abc_font_family_menu_material=0x7f0c0011;
     public static final int abc_font_family_subhead_material=0x7f0c0012;
     public static final int abc_font_family_title_material=0x7f0c0013;
-    public static final int abc_search_hint=0x7f0c0014;
-    public static final int abc_searchview_description_clear=0x7f0c0015;
-    public static final int abc_searchview_description_query=0x7f0c0016;
-    public static final int abc_searchview_description_search=0x7f0c0017;
-    public static final int abc_searchview_description_submit=0x7f0c0018;
-    public static final int abc_searchview_description_voice=0x7f0c0019;
-    public static final int abc_shareactionprovider_share_with=0x7f0c001a;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0c001b;
-    public static final int abc_toolbar_collapse_description=0x7f0c001c;
-    public static final int app_name=0x7f0c001d;
-    public static final int chooseType=0x7f0c001e;
-    public static final int common_google_play_services_enable_button=0x7f0c001f;
-    public static final int common_google_play_services_enable_text=0x7f0c0020;
-    public static final int common_google_play_services_enable_title=0x7f0c0021;
-    public static final int common_google_play_services_install_button=0x7f0c0022;
-    public static final int common_google_play_services_install_text=0x7f0c0023;
-    public static final int common_google_play_services_install_title=0x7f0c0024;
-    public static final int common_google_play_services_notification_channel_name=0x7f0c0025;
-    public static final int common_google_play_services_notification_ticker=0x7f0c0026;
-    public static final int common_google_play_services_unknown_issue=0x7f0c0027;
-    public static final int common_google_play_services_unsupported_text=0x7f0c0028;
-    public static final int common_google_play_services_update_button=0x7f0c0029;
-    public static final int common_google_play_services_update_text=0x7f0c002a;
-    public static final int common_google_play_services_update_title=0x7f0c002b;
-    public static final int common_google_play_services_updating_text=0x7f0c002c;
-    public static final int common_google_play_services_wear_update_text=0x7f0c002d;
-    public static final int common_open_on_phone=0x7f0c002e;
-    public static final int common_signin_button_text=0x7f0c002f;
-    public static final int common_signin_button_text_long=0x7f0c0030;
-    public static final int destination=0x7f0c0031;
-    public static final int multiplierText=0x7f0c0032;
-    public static final int origin=0x7f0c0033;
-    public static final int place_autocomplete_clear_button=0x7f0c0034;
-    public static final int place_autocomplete_search_hint=0x7f0c0035;
-    public static final int search_menu_title=0x7f0c0036;
-    public static final int status_bar_notification_info_overflow=0x7f0c0037;
-    public static final int submit=0x7f0c0038;
-    public static final int type=0x7f0c0039;
+    public static final int abc_menu_alt_shortcut_label=0x7f0c0014;
+    public static final int abc_menu_ctrl_shortcut_label=0x7f0c0015;
+    public static final int abc_menu_delete_shortcut_label=0x7f0c0016;
+    public static final int abc_menu_enter_shortcut_label=0x7f0c0017;
+    public static final int abc_menu_function_shortcut_label=0x7f0c0018;
+    public static final int abc_menu_meta_shortcut_label=0x7f0c0019;
+    public static final int abc_menu_shift_shortcut_label=0x7f0c001a;
+    public static final int abc_menu_space_shortcut_label=0x7f0c001b;
+    public static final int abc_menu_sym_shortcut_label=0x7f0c001c;
+    public static final int abc_prepend_shortcut_label=0x7f0c001d;
+    public static final int abc_search_hint=0x7f0c001e;
+    public static final int abc_searchview_description_clear=0x7f0c001f;
+    public static final int abc_searchview_description_query=0x7f0c0020;
+    public static final int abc_searchview_description_search=0x7f0c0021;
+    public static final int abc_searchview_description_submit=0x7f0c0022;
+    public static final int abc_searchview_description_voice=0x7f0c0023;
+    public static final int abc_shareactionprovider_share_with=0x7f0c0024;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0c0025;
+    public static final int abc_toolbar_collapse_description=0x7f0c0026;
+    public static final int app_name=0x7f0c0027;
+    public static final int common_google_play_services_enable_button=0x7f0c0028;
+    public static final int common_google_play_services_enable_text=0x7f0c0029;
+    public static final int common_google_play_services_enable_title=0x7f0c002a;
+    public static final int common_google_play_services_install_button=0x7f0c002b;
+    public static final int common_google_play_services_install_text=0x7f0c002c;
+    public static final int common_google_play_services_install_title=0x7f0c002d;
+    public static final int common_google_play_services_notification_channel_name=0x7f0c002e;
+    public static final int common_google_play_services_notification_ticker=0x7f0c002f;
+    public static final int common_google_play_services_unknown_issue=0x7f0c0030;
+    public static final int common_google_play_services_unsupported_text=0x7f0c0031;
+    public static final int common_google_play_services_update_button=0x7f0c0032;
+    public static final int common_google_play_services_update_text=0x7f0c0033;
+    public static final int common_google_play_services_update_title=0x7f0c0034;
+    public static final int common_google_play_services_updating_text=0x7f0c0035;
+    public static final int common_google_play_services_wear_update_text=0x7f0c0036;
+    public static final int common_open_on_phone=0x7f0c0037;
+    public static final int common_signin_button_text=0x7f0c0038;
+    public static final int common_signin_button_text_long=0x7f0c0039;
+    public static final int place_autocomplete_clear_button=0x7f0c003a;
+    public static final int place_autocomplete_search_hint=0x7f0c003b;
+    public static final int search_menu_title=0x7f0c003c;
+    public static final int status_bar_notification_info_overflow=0x7f0c003d;
+    public static final int stopPercentage=0x7f0c003e;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0d0000;
@@ -3632,262 +3683,267 @@ public final class R {
     public static final int Base_V26_Theme_AppCompat=0x7f0d005b;
     public static final int Base_V26_Theme_AppCompat_Light=0x7f0d005c;
     public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0d005d;
-    public static final int Base_V7_Theme_AppCompat=0x7f0d005e;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0d005f;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0d0060;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0d0061;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0d0062;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0d0063;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0d0064;
-    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0d0065;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0d0066;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0d0067;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0d0068;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0d0069;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0d006a;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0d006b;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0d006c;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0d006d;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0d006e;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0d006f;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0d0070;
-    public static final int Base_Widget_AppCompat_Button=0x7f0d0071;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0d0072;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0d0073;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0074;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0d0075;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0d0076;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0d0077;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0078;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0d0079;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0d007a;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0d007b;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0d007c;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0d007d;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0d007e;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0d007f;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0d0080;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0d0081;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0082;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0083;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0084;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0085;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0086;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0d0087;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0088;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0d0089;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0d008a;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0d008b;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0d008c;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0d008d;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0d008e;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0d008f;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0d0090;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0d0091;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0092;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0d0093;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0d0094;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0d0095;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0d0096;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0d0097;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0d0098;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0d0099;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0d009a;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0d009b;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0d009c;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0d009d;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d009e;
-    public static final int Platform_AppCompat=0x7f0d009f;
-    public static final int Platform_AppCompat_Light=0x7f0d00a0;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0d00a1;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0d00a2;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0d00a3;
-    public static final int Platform_V21_AppCompat=0x7f0d00a4;
-    public static final int Platform_V21_AppCompat_Light=0x7f0d00a5;
-    public static final int Platform_V25_AppCompat=0x7f0d00a6;
-    public static final int Platform_V25_AppCompat_Light=0x7f0d00a7;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0d00a8;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0d00a9;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0d00aa;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0d00ab;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0d00ac;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0d00ad;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0d00ae;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0d00af;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0d00b0;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0d00b1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0d00b2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0d00b3;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0d00b4;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0d00b5;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0d00b6;
-    public static final int TextAppearance_AppCompat=0x7f0d00b7;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0d00b8;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0d00b9;
-    public static final int TextAppearance_AppCompat_Button=0x7f0d00ba;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0d00bb;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0d00bc;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0d00bd;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0d00be;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0d00bf;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0d00c0;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0d00c1;
-    public static final int TextAppearance_AppCompat_Large=0x7f0d00c2;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0d00c3;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0d00c4;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0d00c5;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d00c6;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d00c7;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0d00c8;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0d00c9;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0d00ca;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d00cb;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0d00cc;
-    public static final int TextAppearance_AppCompat_Small=0x7f0d00cd;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0d00ce;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0d00cf;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0d00d0;
-    public static final int TextAppearance_AppCompat_Title=0x7f0d00d1;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0d00d2;
-    public static final int TextAppearance_AppCompat_Tooltip=0x7f0d00d3;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d00d4;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d00d5;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d00d6;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d00d7;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d00d8;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d00d9;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0d00da;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d00db;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0d00dc;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0d00dd;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0d00de;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0d00df;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d00e0;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d00e1;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0d00e2;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d00e3;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d00e4;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0d00e5;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d00e6;
-    public static final int TextAppearance_Compat_Notification=0x7f0d00e7;
-    public static final int TextAppearance_Compat_Notification_Info=0x7f0d00e8;
-    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0d00e9;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f0d00ea;
-    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0d00eb;
-    public static final int TextAppearance_Compat_Notification_Media=0x7f0d00ec;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f0d00ed;
-    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0d00ee;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f0d00ef;
-    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0d00f0;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d00f1;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d00f2;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d00f3;
-    public static final int Theme_AppCompat=0x7f0d00f4;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0d00f5;
-    public static final int Theme_AppCompat_DayNight=0x7f0d00f6;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0d00f7;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0d00f8;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0d00f9;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0d00fa;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0d00fb;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0d00fc;
-    public static final int Theme_AppCompat_Dialog=0x7f0d00fd;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0d00fe;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0d00ff;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0d0100;
-    public static final int Theme_AppCompat_Light=0x7f0d0101;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0d0102;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0d0103;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0d0104;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d0105;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0d0106;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0d0107;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0d0108;
-    public static final int ThemeOverlay_AppCompat=0x7f0d0109;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0d010a;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0d010b;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d010c;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0d010d;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0d010e;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0d010f;
-    public static final int Widget_AppCompat_ActionBar=0x7f0d0110;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0d0111;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0d0112;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0d0113;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0d0114;
-    public static final int Widget_AppCompat_ActionButton=0x7f0d0115;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0d0116;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0d0117;
-    public static final int Widget_AppCompat_ActionMode=0x7f0d0118;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0d0119;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0d011a;
-    public static final int Widget_AppCompat_Button=0x7f0d011b;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0d011c;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0d011d;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d011e;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0d011f;
-    public static final int Widget_AppCompat_Button_Small=0x7f0d0120;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0d0121;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0122;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0d0123;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0d0124;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0d0125;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0d0126;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0d0127;
-    public static final int Widget_AppCompat_EditText=0x7f0d0128;
-    public static final int Widget_AppCompat_ImageButton=0x7f0d0129;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0d012a;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0d012b;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0d012c;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d012d;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0d012e;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0d012f;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0130;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0131;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0d0132;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0d0133;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0d0134;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0d0135;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0d0136;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0d0137;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0d0138;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0d0139;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0d013a;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0d013b;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0d013c;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d013d;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0d013e;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0d013f;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0d0140;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0d0141;
-    public static final int Widget_AppCompat_ListView=0x7f0d0142;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0d0143;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0d0144;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0d0145;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0d0146;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0d0147;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0d0148;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0149;
-    public static final int Widget_AppCompat_RatingBar=0x7f0d014a;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0d014b;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0d014c;
-    public static final int Widget_AppCompat_SearchView=0x7f0d014d;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0d014e;
-    public static final int Widget_AppCompat_SeekBar=0x7f0d014f;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0d0150;
-    public static final int Widget_AppCompat_Spinner=0x7f0d0151;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0d0152;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0d0153;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0d0154;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0d0155;
-    public static final int Widget_AppCompat_Toolbar=0x7f0d0156;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d0157;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f0d0158;
-    public static final int Widget_Compat_NotificationActionText=0x7f0d0159;
-    public static final int Widget_Support_CoordinatorLayout=0x7f0d015a;
-    public static final int amu_Bubble_TextAppearance_Dark=0x7f0d015b;
-    public static final int amu_Bubble_TextAppearance_Light=0x7f0d015c;
-    public static final int amu_ClusterIcon_TextAppearance=0x7f0d015d;
+    public static final int Base_V28_Theme_AppCompat=0x7f0d005e;
+    public static final int Base_V28_Theme_AppCompat_Light=0x7f0d005f;
+    public static final int Base_V7_Theme_AppCompat=0x7f0d0060;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0d0061;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0d0062;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0d0063;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0d0064;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0d0065;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0d0066;
+    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0d0067;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0d0068;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0d0069;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0d006a;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0d006b;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0d006c;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0d006d;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0d006e;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0d006f;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0d0070;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0d0071;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0d0072;
+    public static final int Base_Widget_AppCompat_Button=0x7f0d0073;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0d0074;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0d0075;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0076;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0d0077;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0d0078;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0d0079;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d007a;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0d007b;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0d007c;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0d007d;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0d007e;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0d007f;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0d0080;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0d0081;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0d0082;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0d0083;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0084;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0085;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0086;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0087;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0088;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0d0089;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d008a;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0d008b;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0d008c;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0d008d;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0d008e;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0d008f;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0d0090;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0d0091;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0d0092;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0d0093;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0094;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0d0095;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0d0096;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0d0097;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0d0098;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0d0099;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0d009a;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0d009b;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0d009c;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0d009d;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0d009e;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0d009f;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d00a0;
+    public static final int Platform_AppCompat=0x7f0d00a1;
+    public static final int Platform_AppCompat_Light=0x7f0d00a2;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0d00a3;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0d00a4;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0d00a5;
+    public static final int Platform_V21_AppCompat=0x7f0d00a6;
+    public static final int Platform_V21_AppCompat_Light=0x7f0d00a7;
+    public static final int Platform_V25_AppCompat=0x7f0d00a8;
+    public static final int Platform_V25_AppCompat_Light=0x7f0d00a9;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0d00aa;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0d00ab;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0d00ac;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0d00ad;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0d00ae;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0d00af;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut=0x7f0d00b0;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow=0x7f0d00b1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0d00b2;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title=0x7f0d00b3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0d00b4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0d00b5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0d00b6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0d00b7;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0d00b8;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0d00b9;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0d00ba;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0d00bb;
+    public static final int TextAppearance_AppCompat=0x7f0d00bc;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0d00bd;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0d00be;
+    public static final int TextAppearance_AppCompat_Button=0x7f0d00bf;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0d00c0;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0d00c1;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0d00c2;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0d00c3;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0d00c4;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0d00c5;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0d00c6;
+    public static final int TextAppearance_AppCompat_Large=0x7f0d00c7;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0d00c8;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0d00c9;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0d00ca;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d00cb;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d00cc;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0d00cd;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0d00ce;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0d00cf;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d00d0;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0d00d1;
+    public static final int TextAppearance_AppCompat_Small=0x7f0d00d2;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0d00d3;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0d00d4;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0d00d5;
+    public static final int TextAppearance_AppCompat_Title=0x7f0d00d6;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0d00d7;
+    public static final int TextAppearance_AppCompat_Tooltip=0x7f0d00d8;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d00d9;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d00da;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d00db;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d00dc;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d00dd;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d00de;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0d00df;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d00e0;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0d00e1;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0d00e2;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0d00e3;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0d00e4;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d00e5;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d00e6;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0d00e7;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d00e8;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d00e9;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0d00ea;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d00eb;
+    public static final int TextAppearance_Compat_Notification=0x7f0d00ec;
+    public static final int TextAppearance_Compat_Notification_Info=0x7f0d00ed;
+    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0d00ee;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f0d00ef;
+    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0d00f0;
+    public static final int TextAppearance_Compat_Notification_Media=0x7f0d00f1;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f0d00f2;
+    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0d00f3;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f0d00f4;
+    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0d00f5;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d00f6;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d00f7;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d00f8;
+    public static final int Theme_AppCompat=0x7f0d00f9;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0d00fa;
+    public static final int Theme_AppCompat_DayNight=0x7f0d00fb;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0d00fc;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0d00fd;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0d00fe;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0d00ff;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0d0100;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0d0101;
+    public static final int Theme_AppCompat_Dialog=0x7f0d0102;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0d0103;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0d0104;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0d0105;
+    public static final int Theme_AppCompat_Light=0x7f0d0106;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0d0107;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0d0108;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0d0109;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d010a;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0d010b;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0d010c;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0d010d;
+    public static final int ThemeOverlay_AppCompat=0x7f0d010e;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0d010f;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0d0110;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d0111;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0d0112;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0d0113;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0d0114;
+    public static final int Widget_AppCompat_ActionBar=0x7f0d0115;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0d0116;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0d0117;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0d0118;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0d0119;
+    public static final int Widget_AppCompat_ActionButton=0x7f0d011a;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0d011b;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0d011c;
+    public static final int Widget_AppCompat_ActionMode=0x7f0d011d;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0d011e;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0d011f;
+    public static final int Widget_AppCompat_Button=0x7f0d0120;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0d0121;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0d0122;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0123;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0d0124;
+    public static final int Widget_AppCompat_Button_Small=0x7f0d0125;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0d0126;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0127;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0d0128;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0d0129;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0d012a;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0d012b;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0d012c;
+    public static final int Widget_AppCompat_EditText=0x7f0d012d;
+    public static final int Widget_AppCompat_ImageButton=0x7f0d012e;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0d012f;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0130;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0d0131;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0132;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0d0133;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0134;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0135;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0136;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0d0137;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0d0138;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0d0139;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0d013a;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0d013b;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0d013c;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0d013d;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0d013e;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0d013f;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0d0140;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0d0141;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0142;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0d0143;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0d0144;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0d0145;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0d0146;
+    public static final int Widget_AppCompat_ListView=0x7f0d0147;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0d0148;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0d0149;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0d014a;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0d014b;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0d014c;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0d014d;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0d014e;
+    public static final int Widget_AppCompat_RatingBar=0x7f0d014f;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0d0150;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0d0151;
+    public static final int Widget_AppCompat_SearchView=0x7f0d0152;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0d0153;
+    public static final int Widget_AppCompat_SeekBar=0x7f0d0154;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0d0155;
+    public static final int Widget_AppCompat_Spinner=0x7f0d0156;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0d0157;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0d0158;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0d0159;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0d015a;
+    public static final int Widget_AppCompat_Toolbar=0x7f0d015b;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d015c;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f0d015d;
+    public static final int Widget_Compat_NotificationActionText=0x7f0d015e;
+    public static final int Widget_Support_CoordinatorLayout=0x7f0d015f;
+    public static final int amu_Bubble_TextAppearance_Dark=0x7f0d0160;
+    public static final int amu_Bubble_TextAppearance_Light=0x7f0d0161;
+    public static final int amu_ClusterIcon_TextAppearance=0x7f0d0162;
   }
   public static final class styleable {
     /**
@@ -3960,12 +4016,12 @@ public final class R {
     public static final int[] ActionBar={
       0x7f020033, 0x7f020034, 0x7f020035, 0x7f020069, 
       0x7f02006a, 0x7f02006b, 0x7f02006c, 0x7f02006d, 
-      0x7f02006e, 0x7f020071, 0x7f020076, 0x7f020077, 
-      0x7f020082, 0x7f020092, 0x7f020093, 0x7f020094, 
-      0x7f020095, 0x7f020096, 0x7f02009d, 0x7f0200a0, 
-      0x7f0200eb, 0x7f0200f5, 0x7f020100, 0x7f020103, 
-      0x7f020104, 0x7f020120, 0x7f020123, 0x7f02013e, 
-      0x7f020147
+      0x7f02006e, 0x7f020071, 0x7f020077, 0x7f020078, 
+      0x7f020083, 0x7f020095, 0x7f020096, 0x7f020097, 
+      0x7f020098, 0x7f020099, 0x7f0200a0, 0x7f0200a3, 
+      0x7f0200f0, 0x7f0200fa, 0x7f020105, 0x7f020108, 
+      0x7f020109, 0x7f020125, 0x7f020128, 0x7f020143, 
+      0x7f02014c
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#background}
@@ -4435,8 +4491,8 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-      0x7f020033, 0x7f020034, 0x7f020055, 0x7f020092, 
-      0x7f020123, 0x7f020147
+      0x7f020033, 0x7f020034, 0x7f020055, 0x7f020095, 
+      0x7f020128, 0x7f02014c
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#background}
@@ -4528,7 +4584,7 @@ public final class R {
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-      0x7f020084, 0x7f02009e
+      0x7f020085, 0x7f0200a1
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#expandActivityOverflowButtonDrawable}
@@ -4578,8 +4634,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-      0x010100f2, 0x7f020042, 0x7f020043, 0x7f0200e1, 
-      0x7f0200e2, 0x7f0200f2, 0x7f020115, 0x7f020116
+      0x010100f2, 0x7f020042, 0x7f020043, 0x7f0200e6, 
+      0x7f0200e7, 0x7f0200f7, 0x7f02011a, 0x7f02011b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4677,6 +4733,195 @@ public final class R {
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
+     * Attributes that can be used with a AnimatedStateListDrawableCompat.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_dither android:dither}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_visible android:visible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_variablePadding android:variablePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_constantSize android:constantSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_enterFadeDuration android:enterFadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_exitFadeDuration android:exitFadeDuration}</code></td><td></td></tr>
+     * </table>
+     * @see #AnimatedStateListDrawableCompat_android_dither
+     * @see #AnimatedStateListDrawableCompat_android_visible
+     * @see #AnimatedStateListDrawableCompat_android_variablePadding
+     * @see #AnimatedStateListDrawableCompat_android_constantSize
+     * @see #AnimatedStateListDrawableCompat_android_enterFadeDuration
+     * @see #AnimatedStateListDrawableCompat_android_exitFadeDuration
+     */
+    public static final int[] AnimatedStateListDrawableCompat={
+      0x0101011c, 0x01010194, 0x01010195, 0x01010196, 
+      0x0101030c, 0x0101030d
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:dither
+     */
+    public static final int AnimatedStateListDrawableCompat_android_dither=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int AnimatedStateListDrawableCompat_android_visible=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:variablePadding
+     */
+    public static final int AnimatedStateListDrawableCompat_android_variablePadding=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:constantSize
+     */
+    public static final int AnimatedStateListDrawableCompat_android_constantSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:enterFadeDuration
+     */
+    public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:exitFadeDuration
+     */
+    public static final int AnimatedStateListDrawableCompat_android_exitFadeDuration=5;
+    /**
+     * Attributes that can be used with a AnimatedStateListDrawableItem.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableItem_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableItem_android_drawable android:drawable}</code></td><td></td></tr>
+     * </table>
+     * @see #AnimatedStateListDrawableItem_android_id
+     * @see #AnimatedStateListDrawableItem_android_drawable
+     */
+    public static final int[] AnimatedStateListDrawableItem={
+      0x010100d0, 0x01010199
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int AnimatedStateListDrawableItem_android_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:drawable
+     */
+    public static final int AnimatedStateListDrawableItem_android_drawable=1;
+    /**
+     * Attributes that can be used with a AnimatedStateListDrawableTransition.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_drawable android:drawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_toId android:toId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_fromId android:fromId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_reversible android:reversible}</code></td><td></td></tr>
+     * </table>
+     * @see #AnimatedStateListDrawableTransition_android_drawable
+     * @see #AnimatedStateListDrawableTransition_android_toId
+     * @see #AnimatedStateListDrawableTransition_android_fromId
+     * @see #AnimatedStateListDrawableTransition_android_reversible
+     */
+    public static final int[] AnimatedStateListDrawableTransition={
+      0x01010199, 0x01010449, 0x0101044a, 0x0101044b
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:drawable
+     */
+    public static final int AnimatedStateListDrawableTransition_android_drawable=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#toId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:toId
+     */
+    public static final int AnimatedStateListDrawableTransition_android_toId=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fromId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:fromId
+     */
+    public static final int AnimatedStateListDrawableTransition_android_fromId=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#reversible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:reversible
+     */
+    public static final int AnimatedStateListDrawableTransition_android_reversible=3;
+    /**
      * Attributes that can be used with a AppCompatImageView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -4694,7 +4939,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-      0x01010119, 0x7f02011b, 0x7f02013c, 0x7f02013d
+      0x01010119, 0x7f020120, 0x7f020141, 0x7f020142
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4773,7 +5018,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-      0x01010142, 0x7f020139, 0x7f02013a, 0x7f02013b
+      0x01010142, 0x7f02013e, 0x7f02013f, 0x7f020140
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4973,7 +5218,10 @@ public final class R {
      * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.carlisle.ben.midwaymap:autoSizePresetSizes}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.carlisle.ben.midwaymap:autoSizeStepGranularity}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.carlisle.ben.midwaymap:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.carlisle.ben.midwaymap:firstBaselineToTopHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_fontFamily com.carlisle.ben.midwaymap:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.carlisle.ben.midwaymap:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.carlisle.ben.midwaymap:lineHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.carlisle.ben.midwaymap:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
@@ -4982,12 +5230,16 @@ public final class R {
      * @see #AppCompatTextView_autoSizePresetSizes
      * @see #AppCompatTextView_autoSizeStepGranularity
      * @see #AppCompatTextView_autoSizeTextType
+     * @see #AppCompatTextView_firstBaselineToTopHeight
      * @see #AppCompatTextView_fontFamily
+     * @see #AppCompatTextView_lastBaselineToBottomHeight
+     * @see #AppCompatTextView_lineHeight
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
       0x01010034, 0x7f02002e, 0x7f02002f, 0x7f020030, 
-      0x7f020031, 0x7f020032, 0x7f020087, 0x7f020129
+      0x7f020031, 0x7f020032, 0x7f020086, 0x7f020089, 
+      0x7f0200a5, 0x7f0200e3, 0x7f02012e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -5070,6 +5322,19 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
+     * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#firstBaselineToTopHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.carlisle.ben.midwaymap:firstBaselineToTopHeight
+     */
+    public static final int AppCompatTextView_firstBaselineToTopHeight=6;
+    /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
@@ -5078,7 +5343,33 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:fontFamily
      */
-    public static final int AppCompatTextView_fontFamily=6;
+    public static final int AppCompatTextView_fontFamily=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#lastBaselineToBottomHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.carlisle.ben.midwaymap:lastBaselineToBottomHeight
+     */
+    public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.carlisle.ben.midwaymap:lineHeight
+     */
+    public static final int AppCompatTextView_lineHeight=9;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
@@ -5092,7 +5383,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAllCaps
      */
-    public static final int AppCompatTextView_textAllCaps=7;
+    public static final int AppCompatTextView_textAllCaps=10;
     /**
      * Attributes that can be used with a AppCompatTheme.
      * <p>Includes the following attributes:</p>
@@ -5159,6 +5450,7 @@ public final class R {
      * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.carlisle.ben.midwaymap:colorPrimaryDark}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.carlisle.ben.midwaymap:colorSwitchThumbNormal}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_controlBackground com.carlisle.ben.midwaymap:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.carlisle.ben.midwaymap:dialogCornerRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.carlisle.ben.midwaymap:dialogPreferredPadding}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.carlisle.ben.midwaymap:dialogTheme}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.carlisle.ben.midwaymap:dividerHorizontal}</code></td><td></td></tr>
@@ -5280,6 +5572,7 @@ public final class R {
      * @see #AppCompatTheme_colorPrimaryDark
      * @see #AppCompatTheme_colorSwitchThumbNormal
      * @see #AppCompatTheme_controlBackground
+     * @see #AppCompatTheme_dialogCornerRadius
      * @see #AppCompatTheme_dialogPreferredPadding
      * @see #AppCompatTheme_dialogTheme
      * @see #AppCompatTheme_dividerHorizontal
@@ -5358,21 +5651,22 @@ public final class R {
       0x7f020059, 0x7f02005a, 0x7f02005b, 0x7f02005c, 
       0x7f02005d, 0x7f02005e, 0x7f02005f, 0x7f020060, 
       0x7f020061, 0x7f020063, 0x7f02006f, 0x7f020074, 
-      0x7f020075, 0x7f020078, 0x7f02007a, 0x7f02007d, 
+      0x7f020075, 0x7f020076, 0x7f020079, 0x7f02007b, 
       0x7f02007e, 0x7f02007f, 0x7f020080, 0x7f020081, 
-      0x7f020094, 0x7f02009c, 0x7f0200df, 0x7f0200e0, 
-      0x7f0200e3, 0x7f0200e4, 0x7f0200e5, 0x7f0200e6, 
-      0x7f0200e7, 0x7f0200e8, 0x7f0200e9, 0x7f0200fc, 
-      0x7f0200fd, 0x7f0200fe, 0x7f0200ff, 0x7f020101, 
-      0x7f020107, 0x7f020108, 0x7f020109, 0x7f02010a, 
-      0x7f02010e, 0x7f02010f, 0x7f020110, 0x7f020111, 
-      0x7f020118, 0x7f020119, 0x7f020127, 0x7f02012a, 
-      0x7f02012b, 0x7f02012c, 0x7f02012d, 0x7f02012e, 
+      0x7f020082, 0x7f020097, 0x7f02009f, 0x7f0200e4, 
+      0x7f0200e5, 0x7f0200e8, 0x7f0200e9, 0x7f0200ea, 
+      0x7f0200eb, 0x7f0200ec, 0x7f0200ed, 0x7f0200ee, 
+      0x7f020101, 0x7f020102, 0x7f020103, 0x7f020104, 
+      0x7f020106, 0x7f02010c, 0x7f02010d, 0x7f02010e, 
+      0x7f02010f, 0x7f020113, 0x7f020114, 0x7f020115, 
+      0x7f020116, 0x7f02011d, 0x7f02011e, 0x7f02012c, 
       0x7f02012f, 0x7f020130, 0x7f020131, 0x7f020132, 
-      0x7f020133, 0x7f020148, 0x7f020149, 0x7f02014a, 
-      0x7f02014b, 0x7f02015a, 0x7f02015c, 0x7f02015d, 
-      0x7f02015e, 0x7f02015f, 0x7f020160, 0x7f020161, 
-      0x7f020162, 0x7f020163, 0x7f020164, 0x7f020165
+      0x7f020133, 0x7f020134, 0x7f020135, 0x7f020136, 
+      0x7f020137, 0x7f020138, 0x7f02014d, 0x7f02014e, 
+      0x7f02014f, 0x7f020150, 0x7f020160, 0x7f020162, 
+      0x7f020163, 0x7f020164, 0x7f020165, 0x7f020166, 
+      0x7f020167, 0x7f020168, 0x7f020169, 0x7f02016a, 
+      0x7f02016b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -6085,6 +6379,19 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
+     * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dialogCornerRadius}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.carlisle.ben.midwaymap:dialogCornerRadius
+     */
+    public static final int AppCompatTheme_dialogCornerRadius=59;
+    /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
@@ -6096,7 +6403,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:dialogPreferredPadding
      */
-    public static final int AppCompatTheme_dialogPreferredPadding=59;
+    public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6108,7 +6415,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:dialogTheme
      */
-    public static final int AppCompatTheme_dialogTheme=60;
+    public static final int AppCompatTheme_dialogTheme=61;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6120,7 +6427,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:dividerHorizontal
      */
-    public static final int AppCompatTheme_dividerHorizontal=61;
+    public static final int AppCompatTheme_dividerHorizontal=62;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6132,7 +6439,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:dividerVertical
      */
-    public static final int AppCompatTheme_dividerVertical=62;
+    public static final int AppCompatTheme_dividerVertical=63;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6144,7 +6451,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:dropDownListViewStyle
      */
-    public static final int AppCompatTheme_dropDownListViewStyle=63;
+    public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6157,7 +6464,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:dropdownListPreferredItemHeight
      */
-    public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6169,7 +6476,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:editTextBackground
      */
-    public static final int AppCompatTheme_editTextBackground=65;
+    public static final int AppCompatTheme_editTextBackground=66;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6184,7 +6491,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:editTextColor
      */
-    public static final int AppCompatTheme_editTextColor=66;
+    public static final int AppCompatTheme_editTextColor=67;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6196,7 +6503,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:editTextStyle
      */
-    public static final int AppCompatTheme_editTextStyle=67;
+    public static final int AppCompatTheme_editTextStyle=68;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6208,7 +6515,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:homeAsUpIndicator
      */
-    public static final int AppCompatTheme_homeAsUpIndicator=68;
+    public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6220,7 +6527,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:imageButtonStyle
      */
-    public static final int AppCompatTheme_imageButtonStyle=69;
+    public static final int AppCompatTheme_imageButtonStyle=70;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6232,7 +6539,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listChoiceBackgroundIndicator
      */
-    public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6244,7 +6551,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listDividerAlertDialog
      */
-    public static final int AppCompatTheme_listDividerAlertDialog=71;
+    public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6256,7 +6563,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listMenuViewStyle
      */
-    public static final int AppCompatTheme_listMenuViewStyle=72;
+    public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6268,7 +6575,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listPopupWindowStyle
      */
-    public static final int AppCompatTheme_listPopupWindowStyle=73;
+    public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6281,7 +6588,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listPreferredItemHeight
      */
-    public static final int AppCompatTheme_listPreferredItemHeight=74;
+    public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6294,7 +6601,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listPreferredItemHeightLarge
      */
-    public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
+    public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6307,7 +6614,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listPreferredItemHeightSmall
      */
-    public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
+    public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6320,7 +6627,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listPreferredItemPaddingLeft
      */
-    public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
+    public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6333,7 +6640,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:listPreferredItemPaddingRight
      */
-    public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
+    public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6345,7 +6652,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:panelBackground
      */
-    public static final int AppCompatTheme_panelBackground=79;
+    public static final int AppCompatTheme_panelBackground=80;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6357,7 +6664,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:panelMenuListTheme
      */
-    public static final int AppCompatTheme_panelMenuListTheme=80;
+    public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6370,7 +6677,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:panelMenuListWidth
      */
-    public static final int AppCompatTheme_panelMenuListWidth=81;
+    public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6382,7 +6689,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:popupMenuStyle
      */
-    public static final int AppCompatTheme_popupMenuStyle=82;
+    public static final int AppCompatTheme_popupMenuStyle=83;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6394,7 +6701,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:popupWindowStyle
      */
-    public static final int AppCompatTheme_popupWindowStyle=83;
+    public static final int AppCompatTheme_popupWindowStyle=84;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6406,7 +6713,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:radioButtonStyle
      */
-    public static final int AppCompatTheme_radioButtonStyle=84;
+    public static final int AppCompatTheme_radioButtonStyle=85;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6418,7 +6725,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:ratingBarStyle
      */
-    public static final int AppCompatTheme_ratingBarStyle=85;
+    public static final int AppCompatTheme_ratingBarStyle=86;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6430,7 +6737,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:ratingBarStyleIndicator
      */
-    public static final int AppCompatTheme_ratingBarStyleIndicator=86;
+    public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6442,7 +6749,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:ratingBarStyleSmall
      */
-    public static final int AppCompatTheme_ratingBarStyleSmall=87;
+    public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6454,7 +6761,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:searchViewStyle
      */
-    public static final int AppCompatTheme_searchViewStyle=88;
+    public static final int AppCompatTheme_searchViewStyle=89;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6466,7 +6773,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:seekBarStyle
      */
-    public static final int AppCompatTheme_seekBarStyle=89;
+    public static final int AppCompatTheme_seekBarStyle=90;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6478,7 +6785,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:selectableItemBackground
      */
-    public static final int AppCompatTheme_selectableItemBackground=90;
+    public static final int AppCompatTheme_selectableItemBackground=91;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6490,7 +6797,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:selectableItemBackgroundBorderless
      */
-    public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
+    public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6502,7 +6809,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:spinnerDropDownItemStyle
      */
-    public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
+    public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6514,7 +6821,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:spinnerStyle
      */
-    public static final int AppCompatTheme_spinnerStyle=93;
+    public static final int AppCompatTheme_spinnerStyle=94;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6526,7 +6833,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:switchStyle
      */
-    public static final int AppCompatTheme_switchStyle=94;
+    public static final int AppCompatTheme_switchStyle=95;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6538,7 +6845,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceLargePopupMenu
      */
-    public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
+    public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6550,7 +6857,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceListItem
      */
-    public static final int AppCompatTheme_textAppearanceListItem=96;
+    public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6562,7 +6869,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceListItemSecondary
      */
-    public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
+    public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6574,7 +6881,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceListItemSmall
      */
-    public static final int AppCompatTheme_textAppearanceListItemSmall=98;
+    public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6586,7 +6893,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearancePopupMenuHeader
      */
-    public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
+    public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6598,7 +6905,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceSearchResultSubtitle
      */
-    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
+    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6610,7 +6917,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceSearchResultTitle
      */
-    public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
+    public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6622,7 +6929,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textAppearanceSmallPopupMenu
      */
-    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
+    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6637,7 +6944,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textColorAlertDialogListItem
      */
-    public static final int AppCompatTheme_textColorAlertDialogListItem=103;
+    public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6652,7 +6959,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:textColorSearchUrl
      */
-    public static final int AppCompatTheme_textColorSearchUrl=104;
+    public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6664,7 +6971,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:toolbarNavigationButtonStyle
      */
-    public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
+    public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6676,7 +6983,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:toolbarStyle
      */
-    public static final int AppCompatTheme_toolbarStyle=106;
+    public static final int AppCompatTheme_toolbarStyle=107;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6691,7 +6998,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:tooltipForegroundColor
      */
-    public static final int AppCompatTheme_tooltipForegroundColor=107;
+    public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6703,7 +7010,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:tooltipFrameBackground
      */
-    public static final int AppCompatTheme_tooltipFrameBackground=108;
+    public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6713,7 +7020,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:viewInflaterClass
      */
-    public static final int AppCompatTheme_viewInflaterClass=109;
+    public static final int AppCompatTheme_viewInflaterClass=110;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6723,7 +7030,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowActionBar
      */
-    public static final int AppCompatTheme_windowActionBar=110;
+    public static final int AppCompatTheme_windowActionBar=111;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6733,7 +7040,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowActionBarOverlay
      */
-    public static final int AppCompatTheme_windowActionBarOverlay=111;
+    public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6743,7 +7050,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowActionModeOverlay
      */
-    public static final int AppCompatTheme_windowActionModeOverlay=112;
+    public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6760,7 +7067,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowFixedHeightMajor
      */
-    public static final int AppCompatTheme_windowFixedHeightMajor=113;
+    public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6777,7 +7084,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowFixedHeightMinor
      */
-    public static final int AppCompatTheme_windowFixedHeightMinor=114;
+    public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6794,7 +7101,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowFixedWidthMajor
      */
-    public static final int AppCompatTheme_windowFixedWidthMajor=115;
+    public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6811,7 +7118,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowFixedWidthMinor
      */
-    public static final int AppCompatTheme_windowFixedWidthMinor=116;
+    public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6828,7 +7135,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowMinWidthMajor
      */
-    public static final int AppCompatTheme_windowMinWidthMajor=117;
+    public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6845,7 +7152,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowMinWidthMinor
      */
-    public static final int AppCompatTheme_windowMinWidthMinor=118;
+    public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6855,7 +7162,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:windowNoTitle
      */
-    public static final int AppCompatTheme_windowNoTitle=119;
+    public static final int AppCompatTheme_windowNoTitle=120;
     /**
      * Attributes that can be used with a ButtonBarLayout.
      * <p>Includes the following attributes:</p>
@@ -7121,8 +7428,7 @@ public final class R {
     public static final int[] ConstraintLayout_Layout={
       0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
       0x01010140, 0x7f020039, 0x7f02003a, 0x7f020050, 
-      0x7f020065, 0x7f020066, 0x7f0200aa, 0x7f0200ab, 
-      0x7f0200ac, 0x7f0200ad, 0x7f0200ae, 0x7f0200af, 
+      0x7f020065, 0x7f020066, 0x7f0200ae, 0x7f0200af, 
       0x7f0200b0, 0x7f0200b1, 0x7f0200b2, 0x7f0200b3, 
       0x7f0200b4, 0x7f0200b5, 0x7f0200b6, 0x7f0200b7, 
       0x7f0200b8, 0x7f0200b9, 0x7f0200ba, 0x7f0200bb, 
@@ -7131,9 +7437,10 @@ public final class R {
       0x7f0200c4, 0x7f0200c5, 0x7f0200c6, 0x7f0200c7, 
       0x7f0200c8, 0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 
       0x7f0200cc, 0x7f0200cd, 0x7f0200ce, 0x7f0200cf, 
-      0x7f0200d0, 0x7f0200d1, 0x7f0200d2, 0x7f0200d4, 
-      0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 
-      0x7f0200d9, 0x7f0200da, 0x7f0200db, 0x7f0200de
+      0x7f0200d0, 0x7f0200d1, 0x7f0200d2, 0x7f0200d3, 
+      0x7f0200d4, 0x7f0200d5, 0x7f0200d6, 0x7f0200d8, 
+      0x7f0200d9, 0x7f0200da, 0x7f0200db, 0x7f0200dc, 
+      0x7f0200dd, 0x7f0200de, 0x7f0200df, 0x7f0200e2
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -7998,7 +8305,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -8021,7 +8328,7 @@ public final class R {
      * @see #ConstraintLayout_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-      0x7f020067, 0x7f020083
+      0x7f020067, 0x7f020084
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#content}
@@ -8229,8 +8536,7 @@ public final class R {
       0x01010322, 0x01010323, 0x01010324, 0x01010325, 
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
       0x010103b6, 0x010103fa, 0x01010440, 0x7f020039, 
-      0x7f02003a, 0x7f020050, 0x7f020066, 0x7f0200aa, 
-      0x7f0200ab, 0x7f0200ac, 0x7f0200ad, 0x7f0200ae, 
+      0x7f02003a, 0x7f020050, 0x7f020066, 0x7f0200ae, 
       0x7f0200af, 0x7f0200b0, 0x7f0200b1, 0x7f0200b2, 
       0x7f0200b3, 0x7f0200b4, 0x7f0200b5, 0x7f0200b6, 
       0x7f0200b7, 0x7f0200b8, 0x7f0200b9, 0x7f0200ba, 
@@ -8240,8 +8546,9 @@ public final class R {
       0x7f0200c7, 0x7f0200c8, 0x7f0200c9, 0x7f0200ca, 
       0x7f0200cb, 0x7f0200cc, 0x7f0200cd, 0x7f0200ce, 
       0x7f0200cf, 0x7f0200d0, 0x7f0200d1, 0x7f0200d2, 
-      0x7f0200d4, 0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 
-      0x7f0200d8, 0x7f0200d9, 0x7f0200da, 0x7f0200db
+      0x7f0200d3, 0x7f0200d4, 0x7f0200d5, 0x7f0200d6, 
+      0x7f0200d8, 0x7f0200d9, 0x7f0200da, 0x7f0200db, 
+      0x7f0200dc, 0x7f0200dd, 0x7f0200de, 0x7f0200df
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -9381,7 +9688,7 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-      0x7f0200a1, 0x7f02011d
+      0x7f0200a4, 0x7f020122
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#keylines}
@@ -9434,8 +9741,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-      0x010100b3, 0x7f0200a7, 0x7f0200a8, 0x7f0200a9, 
-      0x7f0200d3, 0x7f0200dc, 0x7f0200dd
+      0x010100b3, 0x7f0200ab, 0x7f0200ac, 0x7f0200ad, 
+      0x7f0200d7, 0x7f0200e0, 0x7f0200e1
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -9598,7 +9905,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
       0x7f02002b, 0x7f02002c, 0x7f020038, 0x7f020058, 
-      0x7f02007b, 0x7f020090, 0x7f020117, 0x7f020135
+      0x7f02007c, 0x7f020093, 0x7f02011c, 0x7f02013a
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#arrowHeadLength}
@@ -9721,8 +10028,8 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-      0x7f020088, 0x7f020089, 0x7f02008a, 0x7f02008b, 
-      0x7f02008c, 0x7f02008d
+      0x7f02008a, 0x7f02008b, 0x7f02008c, 0x7f02008d, 
+      0x7f02008e, 0x7f02008f
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#fontProviderAuthority}
@@ -9810,20 +10117,29 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_font com.carlisle.ben.midwaymap:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontStyle com.carlisle.ben.midwaymap:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.carlisle.ben.midwaymap:fontVariationSettings}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontWeight com.carlisle.ben.midwaymap:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.carlisle.ben.midwaymap:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
      * @see #FontFamilyFont_android_fontStyle
+     * @see #FontFamilyFont_android_ttcIndex
+     * @see #FontFamilyFont_android_fontVariationSettings
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
+     * @see #FontFamilyFont_fontVariationSettings
      * @see #FontFamilyFont_fontWeight
+     * @see #FontFamilyFont_ttcIndex
      */
     public static final int[] FontFamilyFont={
-      0x01010532, 0x01010533, 0x0101053f, 0x7f020086, 
-      0x7f02008e, 0x7f02008f
+      0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
+      0x01010570, 0x7f020088, 0x7f020090, 0x7f020091, 
+      0x7f020092, 0x7f020155
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -9864,6 +10180,25 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:ttcIndex
+     */
+    public static final int FontFamilyFont_android_ttcIndex=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:fontVariationSettings
+     */
+    public static final int FontFamilyFont_android_fontVariationSettings=4;
+    /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
@@ -9874,7 +10209,7 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:font
      */
-    public static final int FontFamilyFont_font=3;
+    public static final int FontFamilyFont_font=5;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -9891,7 +10226,17 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:fontStyle
      */
-    public static final int FontFamilyFont_fontStyle=4;
+    public static final int FontFamilyFont_fontStyle=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.carlisle.ben.midwaymap:fontVariationSettings
+     */
+    public static final int FontFamilyFont_fontVariationSettings=7;
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -9900,7 +10245,240 @@ public final class R {
      *
      * @attr name com.carlisle.ben.midwaymap:fontWeight
      */
-    public static final int FontFamilyFont_fontWeight=5;
+    public static final int FontFamilyFont_fontWeight=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.carlisle.ben.midwaymap:ttcIndex
+     */
+    public static final int FontFamilyFont_ttcIndex=9;
+    /**
+     * Attributes that can be used with a GradientColor.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #GradientColor_android_startColor android:startColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_endColor android:endColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_type android:type}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_centerX android:centerX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_centerY android:centerY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_gradientRadius android:gradientRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_tileMode android:tileMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_centerColor android:centerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_startX android:startX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_startY android:startY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_endX android:endX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_endY android:endY}</code></td><td></td></tr>
+     * </table>
+     * @see #GradientColor_android_startColor
+     * @see #GradientColor_android_endColor
+     * @see #GradientColor_android_type
+     * @see #GradientColor_android_centerX
+     * @see #GradientColor_android_centerY
+     * @see #GradientColor_android_gradientRadius
+     * @see #GradientColor_android_tileMode
+     * @see #GradientColor_android_centerColor
+     * @see #GradientColor_android_startX
+     * @see #GradientColor_android_startY
+     * @see #GradientColor_android_endX
+     * @see #GradientColor_android_endY
+     */
+    public static final int[] GradientColor={
+      0x0101019d, 0x0101019e, 0x010101a1, 0x010101a2, 
+      0x010101a3, 0x010101a4, 0x01010201, 0x0101020b, 
+      0x01010510, 0x01010511, 0x01010512, 0x01010513
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#startColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:startColor
+     */
+    public static final int GradientColor_android_startColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#endColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:endColor
+     */
+    public static final int GradientColor_android_endColor=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#type}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>0</td><td></td></tr>
+     * <tr><td>radial</td><td>1</td><td></td></tr>
+     * <tr><td>sweep</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:type
+     */
+    public static final int GradientColor_android_type=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#centerX}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:centerX
+     */
+    public static final int GradientColor_android_centerX=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#centerY}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:centerY
+     */
+    public static final int GradientColor_android_centerY=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#gradientRadius}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:gradientRadius
+     */
+    public static final int GradientColor_android_gradientRadius=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#tileMode}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>clamp</td><td>0</td><td></td></tr>
+     * <tr><td>disabled</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>mirror</td><td>2</td><td></td></tr>
+     * <tr><td>repeat</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:tileMode
+     */
+    public static final int GradientColor_android_tileMode=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#centerColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:centerColor
+     */
+    public static final int GradientColor_android_centerColor=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#startX}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:startX
+     */
+    public static final int GradientColor_android_startX=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#startY}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:startY
+     */
+    public static final int GradientColor_android_startY=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#endX}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:endX
+     */
+    public static final int GradientColor_android_endX=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#endY}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:endY
+     */
+    public static final int GradientColor_android_endY=11;
+    /**
+     * Attributes that can be used with a GradientColorItem.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #GradientColorItem_android_color android:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColorItem_android_offset android:offset}</code></td><td></td></tr>
+     * </table>
+     * @see #GradientColorItem_android_color
+     * @see #GradientColorItem_android_offset
+     */
+    public static final int[] GradientColorItem={
+      0x010101a5, 0x01010514
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:color
+     */
+    public static final int GradientColorItem_android_color=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#offset}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:offset
+     */
+    public static final int GradientColorItem_android_offset=1;
     /**
      * Attributes that can be used with a LinearConstraintLayout.
      * <p>Includes the following attributes:</p>
@@ -9961,8 +10539,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-      0x01010128, 0x7f020077, 0x7f020079, 0x7f0200f0, 
-      0x7f020113
+      0x01010128, 0x7f020078, 0x7f02007a, 0x7f0200f5, 
+      0x7f020118
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -10254,7 +10832,7 @@ public final class R {
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
-      0x7f020053, 0x7f02009a, 0x7f02009b
+      0x7f020053, 0x7f02009d, 0x7f02009e
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#circleCrop}
@@ -10351,10 +10929,10 @@ public final class R {
     public static final int[] MapAttrs={
       0x7f02002a, 0x7f020049, 0x7f02004a, 0x7f02004b, 
       0x7f02004c, 0x7f02004d, 0x7f02004e, 0x7f02004f, 
-      0x7f0200a2, 0x7f0200a3, 0x7f0200a4, 0x7f0200a5, 
-      0x7f0200ea, 0x7f0200ed, 0x7f020150, 0x7f020151, 
-      0x7f020152, 0x7f020153, 0x7f020154, 0x7f020155, 
-      0x7f020156, 0x7f020158, 0x7f020166
+      0x7f0200a6, 0x7f0200a7, 0x7f0200a8, 0x7f0200a9, 
+      0x7f0200ef, 0x7f0200f2, 0x7f020156, 0x7f020157, 
+      0x7f020158, 0x7f020159, 0x7f02015a, 0x7f02015b, 
+      0x7f02015c, 0x7f02015e, 0x7f02016c
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#ambientEnabled}
@@ -10748,8 +11326,8 @@ public final class R {
       0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
       0x0101026f, 0x7f02000e, 0x7f020020, 0x7f020021, 
-      0x7f020029, 0x7f020068, 0x7f020097, 0x7f020098, 
-      0x7f0200f6, 0x7f020112, 0x7f02014c
+      0x7f020029, 0x7f020068, 0x7f02009a, 0x7f02009b, 
+      0x7f0200fb, 0x7f020117, 0x7f020151
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -11068,8 +11646,8 @@ public final class R {
      */
     public static final int[] MenuView={
       0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-      0x0101012f, 0x01010130, 0x01010131, 0x7f020102, 
-      0x7f02011e
+      0x0101012f, 0x01010130, 0x01010131, 0x7f020107, 
+      0x7f020123
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -11202,8 +11780,8 @@ public final class R {
      * @see #NumberPicker_value
      */
     public static final int[] NumberPicker={
-      0x7f020072, 0x7f020085, 0x7f0200ee, 0x7f0200f1, 
-      0x7f020157, 0x7f020159
+      0x7f020072, 0x7f020087, 0x7f0200f3, 0x7f0200f6, 
+      0x7f02015d, 0x7f02015f
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#custom_layout}
@@ -11279,7 +11857,7 @@ public final class R {
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-      0x01010176, 0x010102c9, 0x7f0200f7
+      0x01010176, 0x010102c9, 0x7f0200fc
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -11330,7 +11908,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f02011c
+      0x7f020121
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#state_above_anchor}
@@ -11356,7 +11934,7 @@ public final class R {
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-      0x7f0200f8, 0x7f0200fb
+      0x7f0200fd, 0x7f020100
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#paddingBottomNoButtons}
@@ -11429,10 +12007,10 @@ public final class R {
      */
     public static final int[] SearchView={
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-      0x7f020054, 0x7f020064, 0x7f020073, 0x7f020091, 
-      0x7f020099, 0x7f0200a6, 0x7f020105, 0x7f020106, 
-      0x7f02010c, 0x7f02010d, 0x7f02011f, 0x7f020124, 
-      0x7f02015b
+      0x7f020054, 0x7f020064, 0x7f020073, 0x7f020094, 
+      0x7f02009c, 0x7f0200aa, 0x7f02010a, 0x7f02010b, 
+      0x7f020111, 0x7f020112, 0x7f020124, 0x7f020129, 
+      0x7f020161
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -11710,7 +12288,7 @@ public final class R {
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-      0x7f020044, 0x7f020062, 0x7f02010b
+      0x7f020044, 0x7f020062, 0x7f020110
     };
     /**
      * <p>This symbol is the offset where the {@link com.carlisle.ben.midwaymap.R.attr#buttonSize}
@@ -11791,7 +12369,7 @@ public final class R {
      */
     public static final int[] Spinner={
       0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-      0x7f020100
+      0x7f020105
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -11868,6 +12446,115 @@ public final class R {
      */
     public static final int Spinner_popupTheme=4;
     /**
+     * Attributes that can be used with a StateListDrawable.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_dither android:dither}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_visible android:visible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_variablePadding android:variablePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_constantSize android:constantSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_enterFadeDuration android:enterFadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_exitFadeDuration android:exitFadeDuration}</code></td><td></td></tr>
+     * </table>
+     * @see #StateListDrawable_android_dither
+     * @see #StateListDrawable_android_visible
+     * @see #StateListDrawable_android_variablePadding
+     * @see #StateListDrawable_android_constantSize
+     * @see #StateListDrawable_android_enterFadeDuration
+     * @see #StateListDrawable_android_exitFadeDuration
+     */
+    public static final int[] StateListDrawable={
+      0x0101011c, 0x01010194, 0x01010195, 0x01010196, 
+      0x0101030c, 0x0101030d
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:dither
+     */
+    public static final int StateListDrawable_android_dither=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int StateListDrawable_android_visible=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:variablePadding
+     */
+    public static final int StateListDrawable_android_variablePadding=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:constantSize
+     */
+    public static final int StateListDrawable_android_constantSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:enterFadeDuration
+     */
+    public static final int StateListDrawable_android_enterFadeDuration=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:exitFadeDuration
+     */
+    public static final int StateListDrawable_android_exitFadeDuration=5;
+    /**
+     * Attributes that can be used with a StateListDrawableItem.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StateListDrawableItem_android_drawable android:drawable}</code></td><td></td></tr>
+     * </table>
+     * @see #StateListDrawableItem_android_drawable
+     */
+    public static final int[] StateListDrawableItem={
+      0x01010199
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #StateListDrawableItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:drawable
+     */
+    public static final int StateListDrawableItem_android_drawable=0;
+    /**
      * Attributes that can be used with a SwitchCompat.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -11905,10 +12592,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f020114, 
-      0x7f02011a, 0x7f020125, 0x7f020126, 0x7f020128, 
-      0x7f020136, 0x7f020137, 0x7f020138, 0x7f02014d, 
-      0x7f02014e, 0x7f02014f
+      0x01010124, 0x01010125, 0x01010142, 0x7f020119, 
+      0x7f02011f, 0x7f02012a, 0x7f02012b, 0x7f02012d, 
+      0x7f02013b, 0x7f02013c, 0x7f02013d, 0x7f020152, 
+      0x7f020153, 0x7f020154
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -12127,8 +12814,8 @@ public final class R {
     public static final int[] TextAppearance={
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
       0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-      0x01010163, 0x01010164, 0x010103ac, 0x7f020087, 
-      0x7f020129
+      0x01010163, 0x01010164, 0x010103ac, 0x7f020089, 
+      0x7f02012e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -12393,12 +13080,12 @@ public final class R {
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f020041, 0x7f020056, 
       0x7f020057, 0x7f020069, 0x7f02006a, 0x7f02006b, 
-      0x7f02006c, 0x7f02006d, 0x7f02006e, 0x7f0200eb, 
-      0x7f0200ec, 0x7f0200ef, 0x7f0200f3, 0x7f0200f4, 
-      0x7f020100, 0x7f020120, 0x7f020121, 0x7f020122, 
-      0x7f02013e, 0x7f02013f, 0x7f020140, 0x7f020141, 
-      0x7f020142, 0x7f020143, 0x7f020144, 0x7f020145, 
-      0x7f020146
+      0x7f02006c, 0x7f02006d, 0x7f02006e, 0x7f0200f0, 
+      0x7f0200f1, 0x7f0200f4, 0x7f0200f8, 0x7f0200f9, 
+      0x7f020105, 0x7f020125, 0x7f020126, 0x7f020127, 
+      0x7f020143, 0x7f020144, 0x7f020145, 0x7f020146, 
+      0x7f020147, 0x7f020148, 0x7f020149, 0x7f02014a, 
+      0x7f02014b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -12792,8 +13479,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-      0x01010000, 0x010100da, 0x7f0200f9, 0x7f0200fa, 
-      0x7f020134
+      0x01010000, 0x010100da, 0x7f0200fe, 0x7f0200ff, 
+      0x7f020139
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}

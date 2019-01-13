@@ -1,20 +1,11 @@
 package com.carlisle.ben.midwaymap;
 
-import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.carlisle.ben.midwaymap.R;
-import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
-import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
@@ -57,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         ((PlaceAutocompleteFragment) getFragmentManager().findFragmentById(R.id.origin)).setOnPlaceSelectedListener(new PlaceSelectionListener() {
             @Override
             public void onPlaceSelected(Place place) {
+                if (place == null || place.getAddress() == null) {
+                    return;
+                }
                 originAddress = place.getAddress().toString().replace(" ", "+");
                 new Thread(() -> {
                     try {
@@ -76,6 +70,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         ((PlaceAutocompleteFragment) getFragmentManager().findFragmentById(R.id.destination)).setOnPlaceSelectedListener(new PlaceSelectionListener() {
             @Override
             public void onPlaceSelected(Place place) {
+                if (place == null || place.getAddress() == null) {
+                    return;
+                }
                 destinationAddress = place.getAddress().toString().replace(" ", "+");
                 new Thread(() -> {
                     try {
@@ -89,13 +86,16 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
             @Override
             public void onError(Status status) {
-                return;
             }
         });
         ((PlaceAutocompleteFragment) getFragmentManager().findFragmentById(R.id.midwayStop)).setOnPlaceSelectedListener(new PlaceSelectionListener() {
             @Override
             public void onPlaceSelected(Place place) {
-                new Thread(() -> {                    try {
+                if (place == null || place.getAddress() == null) {
+                    return;
+                }
+                new Thread(() -> {
+                    try {
                         setMap(place.getAddress().toString().replace(" ", "+"));
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -109,6 +109,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 return;
             }
         });
+        if (mapFragment == null) {
+            return;
+        }
         mapFragment.getMapAsync(this);
     }
 
@@ -146,9 +149,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             return;
         }
         JSONObject jsonObject = new JSONObject(content);
+        Log.e("gasstation", jsonObject.toString());
         int yards = ((JSONObject) ((JSONObject) jsonObject.getJSONArray("routes").get(0)).getJSONArray("legs").get(0)).getJSONObject("distance").getInt("value");
         JSONArray steps = ((JSONObject) ((JSONObject) jsonObject.getJSONArray("routes").get(0)).getJSONArray("legs").get(0)).getJSONArray("steps");
-        int yardsAway = (int) (yards * multiplier);
+        int yardsAway = yards * multiplier;
         int currentYards = 0;
         double[] pos = null;
         JSONObject currentObject;
@@ -167,10 +171,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             errorOccured();
             return;
         }
+        Log.e("gasstation", pos[0] + " : " + pos[1]);
         ((PlaceAutocompleteFragment) getFragmentManager().findFragmentById(R.id.midwayStop)).setBoundsBias(new LatLngBounds(new LatLng(pos[0], pos[1]), new LatLng(pos[0], pos[1])));
     }
 
-    public void setMap(String result) throws JSONException {
+    private void setMap(String result) throws JSONException {
         String newURL = "https://maps.googleapis.com/maps/api/directions/json?origin=" + originAddress + "&destination=" + destinationAddress + "&waypoints=" + result + "&key=AIzaSyAXNPhz085mn2KbU7Ti40NgRW1IARfPjec";
         final List<Address> positions = new ArrayList<>();
         Geocoder geocoder = new Geocoder(getApplicationContext());
@@ -194,33 +199,30 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             return;
         }
         final JSONObject finalDirObject = new JSONObject(content);
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                try {
+        runOnUiThread(() -> {
+            try {
 //					TextView name = findViewById(R.id.name);
 //					name.setText(result.getString("name"));
 //					name.setVisibility(View.VISIBLE);
 //					TextView addressView = findViewById(R.id.address);
 //					addressView.setText(result.getString("vicinity"));
 //					addressView.setVisibility(View.VISIBLE);
-                    mMap.clear();
-                    Log.e("JSON", String.valueOf(mMap == null));
-                    List<LatLng> decodedPath = PolyUtil.decode(((JSONObject) finalDirObject.getJSONArray("routes").get(0)).getJSONObject("overview_polyline").getString("points"));
-                    mMap.addPolyline(new PolylineOptions().addAll(decodedPath));
-                    MarkerOptions marker;
-                    LatLngBounds.Builder builder = new LatLngBounds.Builder();
-                    for (Address address : positions) {
-                        marker = new MarkerOptions().position(new LatLng(address.getLatitude(), address.getLongitude()));
-                        mMap.addMarker(marker);
-                        builder.include(marker.getPosition());
-                    }
-                    LatLngBounds bounds = builder.build();
-                    CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(bounds, (int) (getResources().getDisplayMetrics().widthPixels * 0.15));
-                    mMap.moveCamera(cameraUpdate);
-                } catch (JSONException e) {
-                    e.printStackTrace();
+                mMap.clear();
+                Log.e("JSON", String.valueOf(mMap == null));
+                List<LatLng> decodedPath = PolyUtil.decode(((JSONObject) finalDirObject.getJSONArray("routes").get(0)).getJSONObject("overview_polyline").getString("points"));
+                mMap.addPolyline(new PolylineOptions().addAll(decodedPath));
+                MarkerOptions marker;
+                LatLngBounds.Builder builder = new LatLngBounds.Builder();
+                for (Address address : positions) {
+                    marker = new MarkerOptions().position(new LatLng(address.getLatitude(), address.getLongitude()));
+                    mMap.addMarker(marker);
+                    builder.include(marker.getPosition());
                 }
+                LatLngBounds bounds = builder.build();
+                CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(bounds, (int) (getResources().getDisplayMetrics().widthPixels * 0.15));
+                mMap.moveCamera(cameraUpdate);
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
         });
 

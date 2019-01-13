@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choose Percentage Along to Stop"
+            android:text="@strings/stopPercentage"
             android:textSize="16sp"
             android:layout_alignParentStart="true"/>
 
@@ -50,13 +50,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/submit"
-        android:id="@+id/submitButton"
-        android:onClick="submit"/>
 
     <TextView
         android:layout_width="match_parent"
