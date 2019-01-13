@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Midway Map</string>
+    <string name="origin">Starting Location:</string>
+    <string name="destination">Destination:</string>
+    <string name="submit">Submit</string>
+    <string name="multiplierText">Choose How Far Along You Want to Stop</string>
+    <string name="type">Type Of Stop</string>
+    <string name="chooseType">Choose Type of Stop</string>
+</resources>
